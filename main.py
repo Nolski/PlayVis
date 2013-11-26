@@ -25,8 +25,8 @@ class PlayVis:
         self.outfile = outfile
         self.characters = []
         self.character_lines = []
-        self.format_paper()
         self.names = {}
+        self.format_paper()
 
     def format_paper(self):
         save = '';
@@ -57,18 +57,17 @@ class PlayVis:
                 save += line # save the line
             else:
                 tempLine = []
-                names = []
                 tempString = ""
                 tempString = line.translate(None,punctuation)
                 tempString.lstrip()
+                tempString = tempString.lower()
                 tempLine = tempString.split()
                 if len(tempLine) != 0:
-                    if tempLine[0] == 'Enter' or tempLine[0] == 'Re-enter':
+                    if tempLine[0] == 'enter' or tempLine[0] == 're-enter':
                         for word in tempLine:
                             if d.check(word) != True:
-                                names.append(word)
-                        if names != []:
-                            print(names)
+                                if word not in self.names:
+                                    self.characters.append(Character(word))
                 character_line = False # we are not in a character line
                 save += '************************************\n' # show that
             ii += 1
@@ -100,7 +99,7 @@ class PlayVis:
 
 pv = PlayVis('texts/julius_ceasar.txt', 'output.txt')
 pv.find_characters()
-print pv.character_lines
+#print pv.character_lines
 for character in pv.characters:
-    pass
-    #print character.__dict__
+    #pass
+    print character.__dict__
