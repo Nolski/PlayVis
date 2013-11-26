@@ -110,12 +110,17 @@ class PlayVis:
 
 
 if __name__ == '__main__':
-    #Load in stuff here
-    #
-    #
-    #
-    #
-    #
+    
+    sDict = {}
+    sent = open('sentiment.txt')
+    for line in sent:
+        line = line.split()
+        print line
+        key = line[0]
+        value = int(line[-1])
+        sDict[key] = value
+    #print sDict
+
     pv = PlayVis('texts/hamlet.txt', 'output.txt')
     pv.find_characters()
     #print pv.character_lines
