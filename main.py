@@ -8,7 +8,6 @@ from string import punctuation
 
 d = enchant.Dict("en_US")
 
-
 class Character:
 
     def __init__(self, name, aliases=[]):
@@ -63,14 +62,16 @@ class PlayVis:
                 tempString = ""
                 tempString = line.translate(None,punctuation)
                 tempString.lstrip()
+                oldLine = tempString.split()
                 tempString = tempString.lower()
                 tempLine = tempString.split()
                 if len(tempLine) != 0:
                     if tempLine[0] == 'enter' or tempLine[0] == 're-enter':
                         for word in tempLine:
                             word = word.lower()
-                            if d.check(word) != True:
+                            if d.check(word) != True or oldLine[tempLine.index(word)][0].isupper:
                                 if word not in self.names:
+                                    print word
                                     self.characters.append(Character(word))
                                     self.names[word] = self.characters[-1]
                 character_line = False # we are not in a character line
@@ -93,6 +94,8 @@ class PlayVis:
             name = name.lower()
             for character in self.characters:
                 if name == character.name[0: len(name)]:
+                    if name == character.name:
+                        character.lines.append(line_num['begin'])
                     character.aliases.add(name)
                     self.names[name] = character
                     character.lines.append(line_num['begin'])
@@ -103,8 +106,9 @@ class PlayVis:
                 self.names[name] = self.characters[-1]
                 self.characters[len(self.characters) -1].lines.append(line_num['begin'])
 
-pv = PlayVis('texts/julius_ceasar.txt', 'output.txt')
+pv = PlayVis('texts/hamlet.txt', 'output.txt')
 pv.find_characters()
 #print pv.character_lines
 for character in pv.characters:
-    print character.__dict__
+    if character.lines:
+        print character.__dict__
