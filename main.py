@@ -29,9 +29,11 @@ class PlayVis:
         self.character_lines = []
         self.names = {}
         self.format_paper()
+        self.current_char = None
+        self.last_char = None
 
     def format_paper(self):
-        save = '';
+        save = ''
         readfile = open(self.filename)
         outfile = open(self.outfile, 'w')
 
@@ -85,7 +87,7 @@ class PlayVis:
         #print self.character_lines
         for line_num in self.character_lines:
             changed = False
-            line = linecache.getline(self.filename, line_num['begin'] + 1);
+            line = linecache.getline(self.filename, line_num['begin'] + 1)
             matches = regex.search('^\s\s[a-zA-Z]+\s?[a-zA-Z]+\.', line)
             name = matches.group()
             punct_replace = regex.compile('[%s]' % regex.escape(punctuation))
@@ -106,9 +108,17 @@ class PlayVis:
                 self.names[name] = self.characters[-1]
                 self.characters[len(self.characters) -1].lines.append(line_num['begin'])
 
-pv = PlayVis('texts/hamlet.txt', 'output.txt')
-pv.find_characters()
-#print pv.character_lines
-for character in pv.characters:
-    if character.lines:
-        print character.__dict__
+
+if __name__ == '__main__':
+    #Load in stuff here
+    #
+    #
+    #
+    #
+    #
+    pv = PlayVis('texts/hamlet.txt', 'output.txt')
+    pv.find_characters()
+    #print pv.character_lines
+    for character in pv.characters:
+        if character.lines:
+            print character.__dict__
