@@ -6,7 +6,18 @@ from sets import Set
 from string import punctuation
 
 
-d = enchant.Dict("en_US")
+d = enchant.Dict("en_US") #create english dictionary
+
+sDict = {} # create dictionary of sentiment words
+sent = open('sentiment.txt')
+for line in sent:
+    line = line.split()
+    #print line
+    key = line[0]
+    value = int(line[-1])
+    sDict[key] = value
+#print sDict
+
 
 class Character:
 
@@ -73,7 +84,7 @@ class PlayVis:
                             word = word.lower()
                             if d.check(word) != True or oldLine[tempLine.index(word)][0].isupper:
                                 if word not in self.names:
-                                    print word
+                                    #print word
                                     self.characters.append(Character(word))
                                     self.names[word] = self.characters[-1]
                 character_line = False # we are not in a character line
@@ -112,25 +123,38 @@ class PlayVis:
                 self.current_char = self.characters[-1]
 
 
+    def sentiment_analysis(self):
+        Sent = sDict
+        lst = []
+        #print self.character_lines
+        print len(self.character_lines)
+        for line_group in self.character_lines:
+            if 'end' not in line_group:
+                line_group['end'] = line_group['begin']
+            for line_num in range(line_group['begin'],line_group['end']): #get list of words for each line
+                line = linecache.getline(self.filename, line_num + 1)
+                line = line.strip()
+                line = line.lower()
+                line = line.translate(None,punctuation)
+                lst = line.split()
+                if lst != []:
+                    if lst[0] in self.names:
+                        lst.pop(0)
+            total = 0
+            for word in lst:
+                if word in Sent:
+                    total += Sent[word]
+            
+            if total == 0: print lst, total
+            
+            
 
 if __name__ == '__main__':
-    
-    sDict = {}
-    sent = open('sentiment.txt')
-    for line in sent:
-        line = line.split()
-        print line
-        key = line[0]
-        value = int(line[-1])
-        sDict[key] = value
-    #print sDict
 
     pv = PlayVis('texts/hamlet.txt', 'output.txt')
     pv.find_characters()
-    print pv.character_lines
-    
-
-    for character in pv.characters:
-        if character.lines:
-            continue
-            print character.__dict__
+    #print pv.character_lines
+    #for character in pv.characters:
+        #if character.lines:
+           #print character.__dict__
+    pv.sentiment_analysis()
