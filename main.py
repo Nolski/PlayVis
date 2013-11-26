@@ -24,6 +24,7 @@ class PlayVis:
 		self.characters = []
 		self.character_lines = []
 		self.format_paper()
+		self.names = {}
 
 	def format_paper(self):
 		save = '';
@@ -73,11 +74,13 @@ class PlayVis:
 			for character in self.characters:
 				if name == character.name[0: len(name)]:
 					character.aliases.add(name)
+					self.names[name] = character
 					character.lines.append(line_num['begin'])
 					changed = True
 					break
 			if not changed:
 				self.characters.append(Character(name))
+				self.names[name] = self.characters[-1]
 				self.characters[len(self.characters) -1].lines.append(line_num['begin'])
 
 pv = PlayVis('texts/julius_ceasar.txt', 'output.txt')
