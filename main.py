@@ -39,11 +39,13 @@ class PlayVis:
 			matches = regex.search('^\s\s[a-zA-Z]+\s?[a-zA-Z]+\.', line)
 			# if it found a name
 			if matches is not None:
+				if not len(self.character_lines) == 0:
+					self.character_lines[-1]['end'] = ii
 				self.character_lines.append({'begin': ii})
 				# we are in a characters line
 				character_line = True
-			elif line[0] == ' ':
-				if len(self.character_lines) > 0 and character_line == False:
+			elif line == '':
+				if character_line == True:
 					self.character_lines[-1]['end'] = ii
 				character_line = False
 			# if the length of line line is not less than 3 and 
