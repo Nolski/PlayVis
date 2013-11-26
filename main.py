@@ -68,9 +68,11 @@ class PlayVis:
                 if len(tempLine) != 0:
                     if tempLine[0] == 'enter' or tempLine[0] == 're-enter':
                         for word in tempLine:
+                            word = word.lower()
                             if d.check(word) != True:
                                 if word not in self.names:
                                     self.characters.append(Character(word))
+                                    self.names[word] = self.characters[-1]
                 character_line = False # we are not in a character line
                 save += '************************************\n' # show that
             ii += 1
@@ -88,6 +90,7 @@ class PlayVis:
             punct_replace = regex.compile('[%s]' % regex.escape(punctuation))
             name = punct_replace.sub('', name)
             name = name.strip()
+            name = name.lower()
             for character in self.characters:
                 if name == character.name[0: len(name)]:
                     character.aliases.add(name)
