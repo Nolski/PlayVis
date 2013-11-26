@@ -127,7 +127,7 @@ class PlayVis:
         Sent = sDict
         lst = []
         #print self.character_lines
-        print len(self.character_lines)
+        #print len(self.character_lines)
         for line_group in self.character_lines:
             if 'end' not in line_group:
                 line_group['end'] = line_group['begin']
@@ -145,7 +145,8 @@ class PlayVis:
                 if word in Sent:
                     total += Sent[word]
             
-            if total == 0: print lst, total
+            #if total == 0: print lst, total
+            line_group['sentiment'] = total
             
             
 
@@ -158,3 +159,5 @@ if __name__ == '__main__':
         #if character.lines:
            #print character.__dict__
     pv.sentiment_analysis()
+    for line in pv.character_lines:
+        print line['sentiment']
