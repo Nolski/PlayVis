@@ -2,9 +2,12 @@ import re as regex
 import nltk
 import linecache
 import enchant
-d = enchant.Dict("en_US")
 from sets import Set
 from string import punctuation
+
+
+d = enchant.Dict("en_US")
+
 
 class Character:
 
@@ -102,5 +105,4 @@ pv = PlayVis('texts/julius_ceasar.txt', 'output.txt')
 pv.find_characters()
 print pv.character_lines
 for character in pv.characters:
-    pass
-    #print character.__dict__
+    print character.__dict__
