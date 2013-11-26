@@ -1,6 +1,8 @@
 import re as regex
 import nltk
 import linecache
+import enchant
+d = enchant.Dict("en_US")
 from sets import Set
 from string import punctuation
 
@@ -54,6 +56,19 @@ class PlayVis:
             if not len(line) < 3 and character_line:
                 save += line # save the line
             else:
+                tempLine = []
+                names = []
+                tempString = ""
+                tempString = line.translate(None,punctuation)
+                tempString.lstrip()
+                tempLine = tempString.split()
+                if len(tempLine) != 0:
+                    if tempLine[0] == 'Enter' or tempLine[0] == 'Re-enter':
+                        for word in tempLine:
+                            if d.check(word) != True:
+                                names.append(word)
+                        if names != []:
+                            print(names)
                 character_line = False # we are not in a character line
                 save += '************************************\n' # show that
             ii += 1
