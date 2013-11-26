@@ -28,9 +28,9 @@ class PlayVis:
         self.characters = []
         self.character_lines = []
         self.names = {}
-        self.format_paper()
         self.current_char = None
         self.last_char = None
+        self.format_paper()
 
     def format_paper(self):
         save = ''
@@ -86,6 +86,7 @@ class PlayVis:
     def find_characters(self):
         #print self.character_lines
         for line_num in self.character_lines:
+            line_num['last_char'] = self.current_char
             changed = False
             line = linecache.getline(self.filename, line_num['begin'] + 1)
             matches = regex.search('^\s\s[a-zA-Z]+\s?[a-zA-Z]+\.', line)
@@ -102,11 +103,14 @@ class PlayVis:
                     self.names[name] = character
                     character.lines.append(line_num['begin'])
                     changed = True
+                    self.current_char = character
                     break
             if not changed:
                 self.characters.append(Character(name))
                 self.names[name] = self.characters[-1]
-                self.characters[len(self.characters) -1].lines.append(line_num['begin'])
+                self.characters[-1].lines.append(line_num['begin'])
+                self.current_char = self.characters[-1]
+
 
 
 if __name__ == '__main__':
@@ -123,7 +127,10 @@ if __name__ == '__main__':
 
     pv = PlayVis('texts/hamlet.txt', 'output.txt')
     pv.find_characters()
-    #print pv.character_lines
+    print pv.character_lines
+    
+
     for character in pv.characters:
         if character.lines:
+            continue
             print character.__dict__
