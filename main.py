@@ -39,10 +39,12 @@ class PlayVis:
 			matches = regex.search('^\s\s[a-zA-Z]+\s?[a-zA-Z]+\.', line)
 			# if it found a name
 			if matches is not None:
-				self.character_lines.append(ii)
+				self.character_lines.append({'begin': ii})
 				# we are in a characters line
 				character_line = True
 			elif line[0] == ' ':
+				if len(self.character_lines) > 0 and character_line == False:
+					self.character_lines[-1]['end'] = ii
 				character_line = False
 			# if the length of line line is not less than 3 and 
 			# we are in a character line
@@ -60,22 +62,25 @@ class PlayVis:
 		#print self.character_lines
 		for line_num in self.character_lines:
 			changed = False
-			line = linecache.getline(self.filename, line_num + 1);
+			line = linecache.getline(self.filename, line_num['begin'] + 1);
 			matches = regex.search('^\s\s[a-zA-Z]+\s?[a-zA-Z]+\.', line)
 			name = matches.group()
 			punct_replace = regex.compile('[%s]' % regex.escape(punctuation))
 			name = punct_replace.sub('', name)
 			name = name.strip()
 			for character in self.characters:
-				if name in character.name:
+				if name == character.name[0: len(name)]:
 					character.aliases.add(name)
-					character.lines.append(line_num)
+					character.lines.append(line_num['begin'])
 					changed = True
 					break
 			if not changed:
 				self.characters.append(Character(name))
+				self.characters[len(self.characters) -1].lines.append(line_num['begin'])
 
 pv = PlayVis('texts/julius_ceasar.txt', 'output.txt')
 pv.find_characters()
+print pv.character_lines
 for character in pv.characters:
-	print character.__dict__
+	pass
+	#print character.__dict__
