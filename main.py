@@ -2,6 +2,7 @@ import re as regex
 import nltk
 import linecache
 import enchant
+import json
 from sets import Set
 from string import punctuation
 
@@ -42,6 +43,7 @@ class PlayVis:
         self.current_char = None
         self.last_char = None
         self.format_paper()
+        self.file_length = 0
 
     def format_paper(self):
         save = ''
@@ -50,9 +52,10 @@ class PlayVis:
 
         character_line = False
         ii = 0
-
+        fl = 0
         #print self.__dict__
         for line in readfile:
+            fl += 1
             # looks for the name
             matches = regex.search('^\s\s[a-zA-Z]+\s?[a-zA-Z]+\.', line)
             # if it found a name
@@ -90,7 +93,7 @@ class PlayVis:
                 character_line = False # we are not in a character line
                 save += '************************************\n' # show that
             ii += 1
-
+        self.file_length = fl
         outfile.write(save)
 
     #TODO
@@ -121,7 +124,7 @@ class PlayVis:
                 self.names[name] = self.characters[-1]
                 self.characters[-1].lines.append(line_num['begin'])
                 self.current_char = self.characters[-1]
-
+            line_num['current_char'] = self.current_char.name
 
     def sentiment_analysis(self):
         Sent = sDict
@@ -147,17 +150,35 @@ class PlayVis:
             
             #if total == 0: print lst, total
             line_group['sentiment'] = total
-            
+    
+    def to_json(self):
+        data = []
+        print self.file_length
+        for ii in range(1, self.file_length + 1):
+            #append all things that happend at line ii
+            changed = False
+            for line_group in self.character_lines:
+                if line_group['begin'] == ii:
+                    line_group['changed'] = True
+                    if not line_group['last_char'] == None:
+                        line_group['last_char'] = line_group['last_char'].name
+                    data.append(line_group)
+                    changed == True
+            if not changed:
+                data.append({'changed': False})
+        data_string = json.dumps(data)
+        print data_string
+        out = open('output.json', 'w')
+        out.write(data_string)
             
 
 if __name__ == '__main__':
-
     pv = PlayVis('texts/hamlet.txt', 'output.txt')
+    pv.format_paper()
     pv.find_characters()
     #print pv.character_lines
     #for character in pv.characters:
         #if character.lines:
            #print character.__dict__
     pv.sentiment_analysis()
-    for line in pv.character_lines:
-        print line['sentiment']
+    pv.to_json()

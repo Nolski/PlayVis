@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayVis</title>
+    <style>
+        .chart rect {
+          fill: steelblue;
+        }
+
+        .chart text {
+          fill: white;
+          font: 10px sans-serif;
+          text-anchor: end;
+        }
+    </style>
+</head>
+<body>
+    <svg class="chart"></svg>
+</body>
+<script src="d3.js"></script>
+<script>
+    var width = 840,
+        height = 500;
+    
+    var data = [
+        {
+            "x": 50,
+            "y": 10,
+            "r": 5
+        },
+        {
+            "x": 100,
+            "y": 40,
+            "r": 30
+        },
+        {
+            "x": 200,
+            "y": 90,
+            "r": 51
+        },
+        {
+            "x": 500,
+            "y": 150,
+            "r": 20
+        }
+    ];
+
+    var chart = d3.select('.chart')
+        .attr('width', width)
+        .attr('height', height);
+
+    var bar = chart.selectAll('circle')
+          .data(data)
+    
+    bar.enter().append('circle')
+          .attr('fill', 'steelblue')
+          .attr('cy', function (d) { return d.y })
+          .attr('cx', function (d) { return d.x })
+          .attr('r', function (d) { return d.r })
+
+    data.pop();
+    
+    bar.exit().remove();
+</script>
+</html>
