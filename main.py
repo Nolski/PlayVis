@@ -181,11 +181,15 @@ class PlayVis:
         out.write(data_string)
 
 if __name__ == '__main__':
+    if '-h' in sys.argv or '--help' in sys.argv:
+        print 'To generate a json: \n \
+                `python main.py path/to/play_file.txt`'
+        sys.exit(0)
     pv = PlayVis(sys.argv[1], 'output.txt')
     pv.format_paper()
     pv.find_characters()
     #print pv.character_lines
-    #for character in pv.characters:
+    #for character in pv.characteracters:
         #if character.lines:
            #print character.__dict__
     pv.sentiment_analysis()
