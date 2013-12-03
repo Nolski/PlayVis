@@ -3,6 +3,7 @@ import nltk
 import linecache
 import enchant
 import json
+import sys
 from sets import Set
 from string import punctuation
 
@@ -180,7 +181,7 @@ class PlayVis:
         out.write(data_string)
 
 if __name__ == '__main__':
-    pv = PlayVis('texts/romeo_juliet.txt', 'output.txt')
+    pv = PlayVis(sys.argv[1], 'output.txt')
     pv.format_paper()
     pv.find_characters()
     #print pv.character_lines
