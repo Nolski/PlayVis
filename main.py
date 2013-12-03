@@ -17,8 +17,17 @@ for line in sent:
     key = line[0]
     value = int(line[-1])
     sDict[key] = value
-#print sDict
 
+sDict2 = {} # create dictionary of sentiment words
+sent = open('lsd.txt')
+for line in sent:
+    line = line.lower()
+    line = line.translate(None,'*')
+    line = line.split()
+    if len(line) != 0:
+        key = line[0]
+        value = line[-1]
+        sDict2[key] = value
 
 class Character:
 
@@ -128,6 +137,7 @@ class PlayVis:
 
     def sentiment_analysis(self):
         Sent = sDict
+        Sent2 = sDict2
         lst = []
         #print self.character_lines
         #print len(self.character_lines)
@@ -147,10 +157,11 @@ class PlayVis:
             for word in lst:
                 if word in Sent:
                     total += Sent[word]
+                if word in Sent2:
+                    total += int(Sent2[word])
             
             #if total == 0: print lst, total
             line_group['sentiment'] = total
-    
     def to_json(self):
         data = []
         print self.file_length
@@ -170,7 +181,6 @@ class PlayVis:
         print data_string
         out = open('output.json', 'w')
         out.write(data_string)
-            
 
 if __name__ == '__main__':
     pv = PlayVis('texts/hamlet.txt', 'output.txt')
