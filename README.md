@@ -18,3 +18,8 @@ To generate a json:
 This will populate a file called `output.txt` in the same directory. To then visualize this, copy `output.txt` into `vis/` and then load `vis/` onto an apache web server. 
 
 Hit the webserver and load `index.html` to view the visualization. Simply replace output.txt with any other output from `main.py` to visualize other plays.
+
+Demo
+----
+
+To view a visualization live visit: http://michael-nolan.com/playvis/midsummer/
