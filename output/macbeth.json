@@ -1,0 +1,3170 @@
+[
+  {
+    "begin": 297,
+    "end": 298,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "barnardo",
+    "last_char": null
+  },
+  {
+    "begin": 297,
+    "end": 298,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "barnardo",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 298,
+    "end": 414,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "fran",
+    "last_char": "barnardo"
+  },
+  {
+    "begin": 298,
+    "end": 414,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "fran",
+    "last_char": "barnardo"
+  },
+  {
+    "begin": 414,
+    "end": 456,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "fran"
+  },
+  {
+    "begin": 414,
+    "end": 456,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "fran"
+  },
+  {
+    "begin": 456,
+    "end": 471,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "cap",
+    "last_char": "king"
+  },
+  {
+    "begin": 456,
+    "end": 471,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "cap",
+    "last_char": "king"
+  },
+  {
+    "begin": 471,
+    "end": 479,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "cap"
+  },
+  {
+    "begin": 471,
+    "end": 479,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "cap"
+  },
+  {
+    "begin": 479,
+    "end": 565,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 479,
+    "end": 565,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 565,
+    "end": 624,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 565,
+    "end": 624,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 624,
+    "end": 626,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 624,
+    "end": 626,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 626,
+    "end": 633,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 626,
+    "end": 633,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 633,
+    "end": 638,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 633,
+    "end": 638,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 638,
+    "end": 641,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 638,
+    "end": 641,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 641,
+    "end": 665,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 641,
+    "end": 665,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 665,
+    "end": 667,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 665,
+    "end": 667,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 667,
+    "end": 747,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "angus",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 667,
+    "end": 747,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "angus",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 747,
+    "end": 749,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "angus"
+  },
+  {
+    "begin": 747,
+    "end": 749,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "angus"
+  },
+  {
+    "begin": 749,
+    "end": 820,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "king"
+  },
+  {
+    "begin": 749,
+    "end": 820,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "king"
+  },
+  {
+    "begin": 820,
+    "end": 833,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 820,
+    "end": 833,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 833,
+    "end": 865,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "king"
+  },
+  {
+    "begin": 833,
+    "end": 865,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "king"
+  },
+  {
+    "begin": 865,
+    "end": 911,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "messenger",
+    "last_char": "lady"
+  },
+  {
+    "begin": 865,
+    "end": 911,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "messenger",
+    "last_char": "lady"
+  },
+  {
+    "begin": 911,
+    "end": 926,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "messenger"
+  },
+  {
+    "begin": 911,
+    "end": 926,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "messenger"
+  },
+  {
+    "begin": 926,
+    "end": 939,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 926,
+    "end": 939,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 939,
+    "end": 953,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "lady"
+  },
+  {
+    "begin": 939,
+    "end": 953,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "lady"
+  },
+  {
+    "begin": 953,
+    "end": 1023,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "king"
+  },
+  {
+    "begin": 953,
+    "end": 1023,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "king",
+    "last_char": "king"
+  },
+  {
+    "begin": 1023,
+    "end": 1024,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "king"
+  },
+  {
+    "begin": 1023,
+    "end": 1024,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "king"
+  },
+  {
+    "begin": 1024,
+    "end": 1025,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1024,
+    "end": 1025,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1025,
+    "end": 1026,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1025,
+    "end": 1026,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1026,
+    "end": 1063,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1026,
+    "end": 1063,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1063,
+    "end": 1084,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1063,
+    "end": 1084,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1084,
+    "end": 1087,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1084,
+    "end": 1087,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1087,
+    "end": 1099,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1087,
+    "end": 1099,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1099,
+    "end": 1100,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1099,
+    "end": 1100,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1100,
+    "end": 1117,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "fleance",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1100,
+    "end": 1117,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "fleance",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1117,
+    "end": 1155,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "fleance"
+  },
+  {
+    "begin": 1117,
+    "end": 1155,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "fleance"
+  },
+  {
+    "begin": 1155,
+    "end": 1201,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1155,
+    "end": 1201,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1201,
+    "end": 1212,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1201,
+    "end": 1212,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1212,
+    "end": 1213,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1212,
+    "end": 1213,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1213,
+    "end": 1219,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1213,
+    "end": 1219,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1219,
+    "end": 1221,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1219,
+    "end": 1221,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1221,
+    "end": 1223,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1221,
+    "end": 1223,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1223,
+    "end": 1224,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1223,
+    "end": 1224,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1224,
+    "end": 1227,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1224,
+    "end": 1227,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1227,
+    "end": 1230,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1227,
+    "end": 1230,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1230,
+    "end": 1264,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1230,
+    "end": 1264,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1264,
+    "end": 1290,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1264,
+    "end": 1290,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1290,
+    "end": 1299,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1290,
+    "end": 1299,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1299,
+    "end": 1332,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1299,
+    "end": 1332,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1332,
+    "end": 1368,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "porter",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1332,
+    "end": 1368,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "porter",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1368,
+    "end": 1370,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "porter"
+  },
+  {
+    "begin": 1368,
+    "end": 1370,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "porter"
+  },
+  {
+    "begin": 1370,
+    "end": 1375,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "porter",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1370,
+    "end": 1375,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "porter",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1375,
+    "end": 1393,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "porter",
+    "last_char": "porter"
+  },
+  {
+    "begin": 1375,
+    "end": 1393,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "porter",
+    "last_char": "porter"
+  },
+  {
+    "begin": 1393,
+    "end": 1401,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "porter"
+  },
+  {
+    "begin": 1393,
+    "end": 1401,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "porter"
+  },
+  {
+    "begin": 1401,
+    "end": 1419,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1401,
+    "end": 1419,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1419,
+    "end": 1420,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1419,
+    "end": 1420,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1420,
+    "end": 1439,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 1420,
+    "end": 1439,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 1439,
+    "end": 1443,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1439,
+    "end": 1443,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1443,
+    "end": 1449,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1443,
+    "end": 1449,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1449,
+    "end": 1450,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1449,
+    "end": 1450,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1450,
+    "end": 1466,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 1450,
+    "end": 1466,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 1466,
+    "end": 1480,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1466,
+    "end": 1480,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1480,
+    "end": 1485,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1480,
+    "end": 1485,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1485,
+    "end": 1493,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1485,
+    "end": 1493,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1493,
+    "end": 1494,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "donal",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1493,
+    "end": 1494,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "donal",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1494,
+    "end": 1501,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "donal"
+  },
+  {
+    "begin": 1494,
+    "end": 1501,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "donal"
+  },
+  {
+    "begin": 1501,
+    "end": 1511,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1501,
+    "end": 1511,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1511,
+    "end": 1522,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 1511,
+    "end": 1522,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 1522,
+    "end": 1528,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1522,
+    "end": 1528,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1528,
+    "end": 1556,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "donal",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1528,
+    "end": 1556,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "donal",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1556,
+    "end": 1582,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "donal"
+  },
+  {
+    "begin": 1556,
+    "end": 1582,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "donal"
+  },
+  {
+    "begin": 1582,
+    "end": 1594,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "old man",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 1582,
+    "end": 1594,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "old man",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 1594,
+    "end": 1614,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "old man",
+    "last_char": "old man"
+  },
+  {
+    "begin": 1594,
+    "end": 1614,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "old man",
+    "last_char": "old man"
+  },
+  {
+    "begin": 1614,
+    "end": 1615,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "old man"
+  },
+  {
+    "begin": 1614,
+    "end": 1615,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "old man"
+  },
+  {
+    "begin": 1615,
+    "end": 1616,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1615,
+    "end": 1616,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1616,
+    "end": 1620,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 1616,
+    "end": 1620,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 1620,
+    "end": 1634,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1620,
+    "end": 1634,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1634,
+    "end": 1639,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1634,
+    "end": 1639,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1639,
+    "end": 1657,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1639,
+    "end": 1657,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1657,
+    "end": 1672,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1657,
+    "end": 1672,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 1672,
+    "end": 1687,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1672,
+    "end": 1687,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1687,
+    "end": 1693,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1687,
+    "end": 1693,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1693,
+    "end": 1710,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1693,
+    "end": 1710,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1710,
+    "end": 1728,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1710,
+    "end": 1728,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "banquo",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1728,
+    "end": 1768,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1728,
+    "end": 1768,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "banquo"
+  },
+  {
+    "begin": 1768,
+    "end": 1844,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 1768,
+    "end": 1844,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 1844,
+    "end": 1871,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 1844,
+    "end": 1871,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 1871,
+    "end": 1872,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1871,
+    "end": 1872,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 1872,
+    "end": 1880,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1872,
+    "end": 1880,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1880,
+    "end": 1936,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 1880,
+    "end": 1936,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 1936,
+    "end": 2014,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 1936,
+    "end": 2014,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2014,
+    "end": 2028,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2014,
+    "end": 2028,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2028,
+    "end": 2037,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2028,
+    "end": 2037,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2037,
+    "end": 2052,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2037,
+    "end": 2052,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2052,
+    "end": 2064,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 2052,
+    "end": 2064,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 2064,
+    "end": 2072,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 2064,
+    "end": 2072,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 2072,
+    "end": 2086,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2072,
+    "end": 2086,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2086,
+    "end": 2091,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2086,
+    "end": 2091,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2091,
+    "end": 2093,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2091,
+    "end": 2093,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2093,
+    "end": 2094,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2093,
+    "end": 2094,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2094,
+    "end": 2095,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lords",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2094,
+    "end": 2095,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lords",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2095,
+    "end": 2106,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lords"
+  },
+  {
+    "begin": 2095,
+    "end": 2106,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lords"
+  },
+  {
+    "begin": 2106,
+    "end": 2191,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2106,
+    "end": 2191,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2191,
+    "end": 2203,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2191,
+    "end": 2203,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2203,
+    "end": 2209,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2203,
+    "end": 2209,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2209,
+    "end": 2215,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2209,
+    "end": 2215,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2215,
+    "end": 2241,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2215,
+    "end": 2241,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lady"
+  },
+  {
+    "begin": 2241,
+    "end": 2291,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hecat",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2241,
+    "end": 2291,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hecat",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2291,
+    "end": 2316,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "hecat"
+  },
+  {
+    "begin": 2291,
+    "end": 2316,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "hecat"
+  },
+  {
+    "begin": 2316,
+    "end": 2334,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lord",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2316,
+    "end": 2334,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lord",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2334,
+    "end": 2404,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lord",
+    "last_char": "lord"
+  },
+  {
+    "begin": 2334,
+    "end": 2404,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lord",
+    "last_char": "lord"
+  },
+  {
+    "begin": 2404,
+    "end": 2417,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hecat",
+    "last_char": "lord"
+  },
+  {
+    "begin": 2404,
+    "end": 2417,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hecat",
+    "last_char": "lord"
+  },
+  {
+    "begin": 2417,
+    "end": 2419,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "hecat"
+  },
+  {
+    "begin": 2417,
+    "end": 2419,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "hecat"
+  },
+  {
+    "begin": 2419,
+    "end": 2454,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2419,
+    "end": 2454,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2454,
+    "end": 2465,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "all"
+  },
+  {
+    "begin": 2454,
+    "end": 2465,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "all"
+  },
+  {
+    "begin": 2465,
+    "end": 2484,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2465,
+    "end": 2484,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2484,
+    "end": 2495,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2484,
+    "end": 2495,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2495,
+    "end": 2505,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2495,
+    "end": 2505,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2505,
+    "end": 2515,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "all"
+  },
+  {
+    "begin": 2505,
+    "end": 2515,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "all"
+  },
+  {
+    "begin": 2515,
+    "end": 2534,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2515,
+    "end": 2534,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2534,
+    "end": 2558,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "all"
+  },
+  {
+    "begin": 2534,
+    "end": 2558,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "all"
+  },
+  {
+    "begin": 2558,
+    "end": 2564,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2558,
+    "end": 2564,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2564,
+    "end": 2567,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2564,
+    "end": 2567,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 2567,
+    "end": 2570,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2567,
+    "end": 2570,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2570,
+    "end": 2575,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2570,
+    "end": 2575,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2575,
+    "end": 2579,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2575,
+    "end": 2579,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2579,
+    "end": 2601,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2579,
+    "end": 2601,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2601,
+    "end": 2602,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2601,
+    "end": 2602,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 2602,
+    "end": 2644,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2602,
+    "end": 2644,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2644,
+    "end": 2646,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2644,
+    "end": 2646,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2646,
+    "end": 2649,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2646,
+    "end": 2649,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2649,
+    "end": 2661,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "son"
+  },
+  {
+    "begin": 2649,
+    "end": 2661,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "son"
+  },
+  {
+    "begin": 2661,
+    "end": 2662,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "son"
+  },
+  {
+    "begin": 2661,
+    "end": 2662,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "son"
+  },
+  {
+    "begin": 2662,
+    "end": 2670,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "son"
+  },
+  {
+    "begin": 2662,
+    "end": 2670,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "son"
+  },
+  {
+    "begin": 2670,
+    "end": 2673,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2670,
+    "end": 2673,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2673,
+    "end": 2681,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2673,
+    "end": 2681,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2681,
+    "end": 2684,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2681,
+    "end": 2684,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2684,
+    "end": 2692,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2684,
+    "end": 2692,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2692,
+    "end": 2699,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2692,
+    "end": 2699,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2699,
+    "end": 2711,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "messenger",
+    "last_char": "son"
+  },
+  {
+    "begin": 2699,
+    "end": 2711,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "messenger",
+    "last_char": "son"
+  },
+  {
+    "begin": 2711,
+    "end": 2721,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "messenger"
+  },
+  {
+    "begin": 2711,
+    "end": 2721,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "messenger"
+  },
+  {
+    "begin": 2721,
+    "end": 2722,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2721,
+    "end": 2722,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "murtherers",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2722,
+    "end": 2731,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 2722,
+    "end": 2731,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wife",
+    "last_char": "murtherers"
+  },
+  {
+    "begin": 2731,
+    "end": 2741,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2731,
+    "end": 2741,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "son",
+    "last_char": "wife"
+  },
+  {
+    "begin": 2741,
+    "end": 2807,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "son"
+  },
+  {
+    "begin": 2741,
+    "end": 2807,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "son"
+  },
+  {
+    "begin": 2807,
+    "end": 2912,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2807,
+    "end": 2912,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2912,
+    "end": 2916,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2912,
+    "end": 2916,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2916,
+    "end": 2918,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 2916,
+    "end": 2918,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 2918,
+    "end": 2925,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2918,
+    "end": 2925,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2925,
+    "end": 2928,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 2925,
+    "end": 2928,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 2928,
+    "end": 2944,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2928,
+    "end": 2944,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2944,
+    "end": 2956,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2944,
+    "end": 2956,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 2956,
+    "end": 2970,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 2956,
+    "end": 2970,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 2970,
+    "end": 2974,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2970,
+    "end": 2974,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2974,
+    "end": 2977,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2974,
+    "end": 2977,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2977,
+    "end": 2980,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2977,
+    "end": 2980,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2980,
+    "end": 2981,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2980,
+    "end": 2981,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2981,
+    "end": 2982,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2981,
+    "end": 2982,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 2982,
+    "end": 3005,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 2982,
+    "end": 3005,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 3005,
+    "end": 3029,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3005,
+    "end": 3029,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3029,
+    "end": 3032,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3029,
+    "end": 3032,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3032,
+    "end": 3042,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3032,
+    "end": 3042,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3042,
+    "end": 3076,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3042,
+    "end": 3076,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3076,
+    "end": 3079,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3076,
+    "end": 3079,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3079,
+    "end": 3090,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3079,
+    "end": 3090,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3090,
+    "end": 3102,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3090,
+    "end": 3102,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3102,
+    "end": 3129,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3102,
+    "end": 3129,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3129,
+    "end": 3161,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3129,
+    "end": 3161,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3161,
+    "end": 3167,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 3161,
+    "end": 3167,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lady",
+    "last_char": "lady"
+  },
+  {
+    "begin": 3167,
+    "end": 3168,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "lady"
+  },
+  {
+    "begin": 3167,
+    "end": 3168,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "lady"
+  },
+  {
+    "begin": 3168,
+    "end": 3190,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3168,
+    "end": 3190,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "gentlewoman",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3190,
+    "end": 3200,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "ment",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3190,
+    "end": 3200,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "ment",
+    "last_char": "gentlewoman"
+  },
+  {
+    "begin": 3200,
+    "end": 3243,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "ment"
+  },
+  {
+    "begin": 3200,
+    "end": 3243,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lenox",
+    "last_char": "ment"
+  },
+  {
+    "begin": 3243,
+    "end": 3261,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 3243,
+    "end": 3261,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "lenox"
+  },
+  {
+    "begin": 3261,
+    "end": 3267,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3261,
+    "end": 3267,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3267,
+    "end": 3282,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 3267,
+    "end": 3282,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seruant",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 3282,
+    "end": 3283,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 3282,
+    "end": 3283,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "seruant"
+  },
+  {
+    "begin": 3283,
+    "end": 3284,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3283,
+    "end": 3284,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3284,
+    "end": 3295,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3284,
+    "end": 3295,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3295,
+    "end": 3306,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3295,
+    "end": 3306,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3306,
+    "end": 3319,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3306,
+    "end": 3319,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3319,
+    "end": 3337,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3319,
+    "end": 3337,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "doctor",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3337,
+    "end": 3343,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3337,
+    "end": 3343,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "doctor"
+  },
+  {
+    "begin": 3343,
+    "end": 3379,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "ment",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3343,
+    "end": 3379,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "ment",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3379,
+    "end": 3389,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "ment"
+  },
+  {
+    "begin": 3379,
+    "end": 3389,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "ment"
+  },
+  {
+    "begin": 3389,
+    "end": 3398,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3389,
+    "end": 3398,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3398,
+    "end": 3456,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3398,
+    "end": 3456,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3456,
+    "end": 3480,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3456,
+    "end": 3480,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3480,
+    "end": 3487,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3480,
+    "end": 3487,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3487,
+    "end": 3504,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3487,
+    "end": 3504,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3504,
+    "end": 3511,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3504,
+    "end": 3511,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3511,
+    "end": 3526,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3511,
+    "end": 3526,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3526,
+    "end": 3541,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 3526,
+    "end": 3541,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "seyton",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 3541,
+    "end": 3546,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3541,
+    "end": 3546,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "seyton"
+  },
+  {
+    "begin": 3546,
+    "end": 3558,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3546,
+    "end": 3558,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3558,
+    "end": 3600,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 3558,
+    "end": 3600,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macbeth",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 3600,
+    "end": 3614,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3600,
+    "end": 3614,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "macbeth"
+  },
+  {
+    "begin": 3614,
+    "end": 3619,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3614,
+    "end": 3619,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "malcolme"
+  },
+  {
+    "begin": 3619,
+    "end": 3634,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3619,
+    "end": 3634,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "rosse",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3634,
+    "end": 3646,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3634,
+    "end": 3646,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "macduff",
+    "last_char": "rosse"
+  },
+  {
+    "begin": 3646,
+    "end": 297,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "macduff"
+  },
+  {
+    "begin": 3646,
+    "end": 3646,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "malcolme",
+    "last_char": "macduff"
+  }
+]

@@ -1,0 +1,8066 @@
+[
+  {
+    "begin": 63,
+    "end": 69,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": null
+  },
+  {
+    "begin": 63,
+    "end": 69,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "puck"
+  },
+  {
+    "begin": 69,
+    "end": 74,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 69,
+    "end": 74,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 74,
+    "end": 87,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 74,
+    "end": 87,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 87,
+    "end": 88,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 87,
+    "end": 88,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 88,
+    "end": 89,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 88,
+    "end": 89,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 89,
+    "end": 113,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 89,
+    "end": 113,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 113,
+    "end": 120,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 113,
+    "end": 120,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 120,
+    "end": 121,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 120,
+    "end": 121,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 121,
+    "end": 124,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 121,
+    "end": 124,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 124,
+    "end": 125,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 124,
+    "end": 125,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 125,
+    "end": 126,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 125,
+    "end": 126,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 126,
+    "end": 133,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 126,
+    "end": 133,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 133,
+    "end": 147,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 133,
+    "end": 147,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 147,
+    "end": 151,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 147,
+    "end": 151,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 151,
+    "end": 159,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 151,
+    "end": 159,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 159,
+    "end": 161,
+    "sentiment": 5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 159,
+    "end": 161,
+    "sentiment": 5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 161,
+    "end": 163,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 161,
+    "end": 163,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 163,
+    "end": 167,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 163,
+    "end": 167,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 167,
+    "end": 179,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 167,
+    "end": 179,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 179,
+    "end": 195,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 179,
+    "end": 195,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 195,
+    "end": 197,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 195,
+    "end": 197,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 197,
+    "end": 199,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 197,
+    "end": 199,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 199,
+    "end": 201,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 199,
+    "end": 201,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 201,
+    "end": 205,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 201,
+    "end": 205,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 205,
+    "end": 206,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 205,
+    "end": 206,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 206,
+    "end": 207,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 206,
+    "end": 207,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 207,
+    "end": 208,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 207,
+    "end": 208,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 208,
+    "end": 209,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 208,
+    "end": 209,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 209,
+    "end": 210,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 209,
+    "end": 210,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 210,
+    "end": 219,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 210,
+    "end": 219,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 219,
+    "end": 225,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 219,
+    "end": 225,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 225,
+    "end": 238,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 225,
+    "end": 238,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 238,
+    "end": 249,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 238,
+    "end": 249,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 249,
+    "end": 253,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 249,
+    "end": 253,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 253,
+    "end": 254,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 253,
+    "end": 254,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 254,
+    "end": 267,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 254,
+    "end": 267,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 267,
+    "end": 268,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 267,
+    "end": 268,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 268,
+    "end": 269,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 268,
+    "end": 269,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 269,
+    "end": 270,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 269,
+    "end": 270,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 270,
+    "end": 271,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 270,
+    "end": 271,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 271,
+    "end": 272,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 271,
+    "end": 272,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 272,
+    "end": 273,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 272,
+    "end": 273,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 273,
+    "end": 274,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 273,
+    "end": 274,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 274,
+    "end": 275,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 274,
+    "end": 275,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 275,
+    "end": 281,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 275,
+    "end": 281,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 281,
+    "end": 287,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 281,
+    "end": 287,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 287,
+    "end": 297,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 287,
+    "end": 297,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 297,
+    "end": 299,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 297,
+    "end": 299,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 299,
+    "end": 334,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 299,
+    "end": 334,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 334,
+    "end": 335,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "helena"
+  },
+  {
+    "begin": 334,
+    "end": 335,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "helena"
+  },
+  {
+    "begin": 335,
+    "end": 337,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 335,
+    "end": 337,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 337,
+    "end": 340,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 337,
+    "end": 340,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 340,
+    "end": 342,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 340,
+    "end": 342,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 342,
+    "end": 344,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 342,
+    "end": 344,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 344,
+    "end": 347,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 344,
+    "end": 347,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 347,
+    "end": 348,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 347,
+    "end": 348,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 348,
+    "end": 349,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 348,
+    "end": 349,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 349,
+    "end": 350,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 349,
+    "end": 350,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 350,
+    "end": 351,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 350,
+    "end": 351,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 351,
+    "end": 352,
+    "sentiment": 5,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 351,
+    "end": 352,
+    "sentiment": 5,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 352,
+    "end": 370,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 352,
+    "end": 370,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 370,
+    "end": 371,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 370,
+    "end": 371,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 371,
+    "end": 372,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 371,
+    "end": 372,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 372,
+    "end": 373,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 372,
+    "end": 373,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 373,
+    "end": 374,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 373,
+    "end": 374,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 374,
+    "end": 375,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 374,
+    "end": 375,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 375,
+    "end": 376,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 375,
+    "end": 376,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 376,
+    "end": 378,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 376,
+    "end": 378,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 378,
+    "end": 382,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 378,
+    "end": 382,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 382,
+    "end": 383,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 382,
+    "end": 383,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 383,
+    "end": 384,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 383,
+    "end": 384,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 384,
+    "end": 385,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 384,
+    "end": 385,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 385,
+    "end": 386,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "quince"
+  },
+  {
+    "begin": 385,
+    "end": 386,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "quince"
+  },
+  {
+    "begin": 386,
+    "end": 388,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 386,
+    "end": 388,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 388,
+    "end": 389,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "quince"
+  },
+  {
+    "begin": 388,
+    "end": 389,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "quince"
+  },
+  {
+    "begin": 389,
+    "end": 391,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "snout"
+  },
+  {
+    "begin": 389,
+    "end": 391,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "snout"
+  },
+  {
+    "begin": 391,
+    "end": 393,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "snug",
+    "last_char": "quince"
+  },
+  {
+    "begin": 391,
+    "end": 393,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "snug",
+    "last_char": "quince"
+  },
+  {
+    "begin": 393,
+    "end": 394,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "snug"
+  },
+  {
+    "begin": 393,
+    "end": 394,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "snug"
+  },
+  {
+    "begin": 394,
+    "end": 397,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 394,
+    "end": 397,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 397,
+    "end": 400,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 397,
+    "end": 400,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 400,
+    "end": 401,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "quince"
+  },
+  {
+    "begin": 400,
+    "end": 401,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "quince"
+  },
+  {
+    "begin": 401,
+    "end": 405,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "all"
+  },
+  {
+    "begin": 401,
+    "end": 405,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "all"
+  },
+  {
+    "begin": 405,
+    "end": 409,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 405,
+    "end": 409,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 409,
+    "end": 411,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 409,
+    "end": 411,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 411,
+    "end": 412,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 411,
+    "end": 412,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 412,
+    "end": 415,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 412,
+    "end": 415,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 415,
+    "end": 423,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 415,
+    "end": 423,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 423,
+    "end": 425,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 423,
+    "end": 425,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 425,
+    "end": 426,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 425,
+    "end": 426,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 426,
+    "end": 447,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 426,
+    "end": 447,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 447,
+    "end": 448,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 447,
+    "end": 448,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 448,
+    "end": 465,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "fairy",
+    "last_char": "puck"
+  },
+  {
+    "begin": 448,
+    "end": 465,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "fairy",
+    "last_char": "puck"
+  },
+  {
+    "begin": 465,
+    "end": 479,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "fairy"
+  },
+  {
+    "begin": 465,
+    "end": 479,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "fairy"
+  },
+  {
+    "begin": 479,
+    "end": 490,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "fairy",
+    "last_char": "puck"
+  },
+  {
+    "begin": 479,
+    "end": 490,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "fairy",
+    "last_char": "puck"
+  },
+  {
+    "begin": 490,
+    "end": 507,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "fairy"
+  },
+  {
+    "begin": 490,
+    "end": 507,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "fairy"
+  },
+  {
+    "begin": 507,
+    "end": 512,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "fairy",
+    "last_char": "puck"
+  },
+  {
+    "begin": 507,
+    "end": 512,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "fairy",
+    "last_char": "puck"
+  },
+  {
+    "begin": 512,
+    "end": 513,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "fairy"
+  },
+  {
+    "begin": 512,
+    "end": 513,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "fairy"
+  },
+  {
+    "begin": 513,
+    "end": 515,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 513,
+    "end": 515,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 515,
+    "end": 516,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 515,
+    "end": 516,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 516,
+    "end": 526,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 516,
+    "end": 526,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 526,
+    "end": 533,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 526,
+    "end": 533,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 533,
+    "end": 570,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 533,
+    "end": 570,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 570,
+    "end": 574,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 570,
+    "end": 574,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 574,
+    "end": 591,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 574,
+    "end": 591,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 591,
+    "end": 592,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 591,
+    "end": 592,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 592,
+    "end": 596,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 592,
+    "end": 596,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 596,
+    "end": 597,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 596,
+    "end": 597,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 597,
+    "end": 600,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 597,
+    "end": 600,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 600,
+    "end": 609,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 600,
+    "end": 609,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 609,
+    "end": 610,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 609,
+    "end": 610,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 610,
+    "end": 630,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 610,
+    "end": 630,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 630,
+    "end": 632,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 630,
+    "end": 632,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 632,
+    "end": 647,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 632,
+    "end": 647,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 647,
+    "end": 654,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 647,
+    "end": 654,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 654,
+    "end": 658,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 654,
+    "end": 658,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 658,
+    "end": 661,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 658,
+    "end": 661,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 661,
+    "end": 670,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 661,
+    "end": 670,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 670,
+    "end": 672,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 670,
+    "end": 672,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 672,
+    "end": 673,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 672,
+    "end": 673,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 673,
+    "end": 679,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 673,
+    "end": 679,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 679,
+    "end": 686,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 679,
+    "end": 686,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 686,
+    "end": 688,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 686,
+    "end": 688,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 688,
+    "end": 694,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 688,
+    "end": 694,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 694,
+    "end": 697,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 694,
+    "end": 697,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 697,
+    "end": 705,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 697,
+    "end": 705,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 705,
+    "end": 711,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "helena"
+  },
+  {
+    "begin": 705,
+    "end": 711,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "helena"
+  },
+  {
+    "begin": 711,
+    "end": 712,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 711,
+    "end": 712,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 712,
+    "end": 732,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 712,
+    "end": 732,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 732,
+    "end": 742,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 732,
+    "end": 742,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 742,
+    "end": 753,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "puck"
+  },
+  {
+    "begin": 742,
+    "end": 753,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "puck"
+  },
+  {
+    "begin": 753,
+    "end": 757,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "first fairy",
+    "last_char": "titania"
+  },
+  {
+    "begin": 753,
+    "end": 757,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "first fairy",
+    "last_char": "titania"
+  },
+  {
+    "begin": 757,
+    "end": 764,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "chorus",
+    "last_char": "first fairy"
+  },
+  {
+    "begin": 757,
+    "end": 764,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "chorus",
+    "last_char": "first fairy"
+  },
+  {
+    "begin": 764,
+    "end": 768,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "second fairy",
+    "last_char": "chorus"
+  },
+  {
+    "begin": 764,
+    "end": 768,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "second fairy",
+    "last_char": "chorus"
+  },
+  {
+    "begin": 768,
+    "end": 769,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "chorus",
+    "last_char": "second fairy"
+  },
+  {
+    "begin": 768,
+    "end": 769,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "chorus",
+    "last_char": "second fairy"
+  },
+  {
+    "begin": 769,
+    "end": 774,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "first fairy",
+    "last_char": "chorus"
+  },
+  {
+    "begin": 769,
+    "end": 774,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "first fairy",
+    "last_char": "chorus"
+  },
+  {
+    "begin": 774,
+    "end": 785,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "first fairy"
+  },
+  {
+    "begin": 774,
+    "end": 785,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "first fairy"
+  },
+  {
+    "begin": 785,
+    "end": 789,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 785,
+    "end": 789,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 789,
+    "end": 791,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 789,
+    "end": 791,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 791,
+    "end": 793,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 791,
+    "end": 793,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 793,
+    "end": 795,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 793,
+    "end": 795,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 795,
+    "end": 803,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 795,
+    "end": 803,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 803,
+    "end": 812,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 803,
+    "end": 812,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 812,
+    "end": 815,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 812,
+    "end": 815,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 815,
+    "end": 820,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 815,
+    "end": 820,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 820,
+    "end": 841,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 820,
+    "end": 841,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 841,
+    "end": 842,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "puck"
+  },
+  {
+    "begin": 841,
+    "end": 842,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "puck"
+  },
+  {
+    "begin": 842,
+    "end": 843,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 842,
+    "end": 843,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 843,
+    "end": 844,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 843,
+    "end": 844,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 844,
+    "end": 845,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 844,
+    "end": 845,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 845,
+    "end": 860,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 845,
+    "end": 860,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 860,
+    "end": 865,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 860,
+    "end": 865,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 865,
+    "end": 868,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 865,
+    "end": 868,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 868,
+    "end": 880,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 868,
+    "end": 880,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 880,
+    "end": 892,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 880,
+    "end": 892,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 892,
+    "end": 902,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 892,
+    "end": 902,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 902,
+    "end": 934,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 902,
+    "end": 934,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 934,
+    "end": 935,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 934,
+    "end": 935,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 935,
+    "end": 939,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 935,
+    "end": 939,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 939,
+    "end": 940,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 939,
+    "end": 940,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 940,
+    "end": 941,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 940,
+    "end": 941,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 941,
+    "end": 944,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 941,
+    "end": 944,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 944,
+    "end": 945,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 944,
+    "end": 945,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 945,
+    "end": 947,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "snout"
+  },
+  {
+    "begin": 945,
+    "end": 947,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "snout"
+  },
+  {
+    "begin": 947,
+    "end": 952,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 947,
+    "end": 952,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 952,
+    "end": 954,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 952,
+    "end": 954,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 954,
+    "end": 955,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 954,
+    "end": 955,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 955,
+    "end": 956,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 955,
+    "end": 956,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 956,
+    "end": 957,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "snout"
+  },
+  {
+    "begin": 956,
+    "end": 957,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "snout"
+  },
+  {
+    "begin": 957,
+    "end": 961,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 957,
+    "end": 961,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 961,
+    "end": 962,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 961,
+    "end": 962,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 962,
+    "end": 970,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 962,
+    "end": 970,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 970,
+    "end": 973,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 970,
+    "end": 973,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 973,
+    "end": 974,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "quince"
+  },
+  {
+    "begin": 973,
+    "end": 974,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "quince"
+  },
+  {
+    "begin": 974,
+    "end": 976,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 974,
+    "end": 976,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 976,
+    "end": 977,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 976,
+    "end": 977,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 977,
+    "end": 980,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 977,
+    "end": 980,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 980,
+    "end": 985,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 980,
+    "end": 985,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 985,
+    "end": 986,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "quince"
+  },
+  {
+    "begin": 985,
+    "end": 986,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "quince"
+  },
+  {
+    "begin": 986,
+    "end": 990,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 986,
+    "end": 990,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 990,
+    "end": 997,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 990,
+    "end": 997,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 997,
+    "end": 1001,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "quince"
+  },
+  {
+    "begin": 997,
+    "end": 1001,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1001,
+    "end": 1002,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1001,
+    "end": 1002,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1002,
+    "end": 1003,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1002,
+    "end": 1003,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1003,
+    "end": 1004,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1003,
+    "end": 1004,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1004,
+    "end": 1008,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1004,
+    "end": 1008,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1008,
+    "end": 1009,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1008,
+    "end": 1009,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1009,
+    "end": 1010,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1009,
+    "end": 1010,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1010,
+    "end": 1012,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1010,
+    "end": 1012,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1012,
+    "end": 1017,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1012,
+    "end": 1017,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1017,
+    "end": 1020,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1017,
+    "end": 1020,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1020,
+    "end": 1024,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1020,
+    "end": 1024,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1024,
+    "end": 1025,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1024,
+    "end": 1025,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1025,
+    "end": 1028,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1025,
+    "end": 1028,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1028,
+    "end": 1035,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1028,
+    "end": 1035,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1035,
+    "end": 1040,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1035,
+    "end": 1040,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1040,
+    "end": 1041,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1040,
+    "end": 1041,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "snout",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1041,
+    "end": 1046,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 1041,
+    "end": 1046,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "snout"
+  },
+  {
+    "begin": 1046,
+    "end": 1048,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1046,
+    "end": 1048,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1048,
+    "end": 1058,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1048,
+    "end": 1058,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1058,
+    "end": 1059,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1058,
+    "end": 1059,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1059,
+    "end": 1066,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1059,
+    "end": 1066,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1066,
+    "end": 1071,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1066,
+    "end": 1071,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1071,
+    "end": 1076,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1071,
+    "end": 1076,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1076,
+    "end": 1077,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1076,
+    "end": 1077,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1077,
+    "end": 1079,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1077,
+    "end": 1079,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1079,
+    "end": 1093,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1079,
+    "end": 1093,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1093,
+    "end": 1094,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1093,
+    "end": 1094,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1094,
+    "end": 1095,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1094,
+    "end": 1095,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1095,
+    "end": 1096,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moth",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1095,
+    "end": 1096,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moth",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1096,
+    "end": 1097,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "moth"
+  },
+  {
+    "begin": 1096,
+    "end": 1097,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "moth"
+  },
+  {
+    "begin": 1097,
+    "end": 1098,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1097,
+    "end": 1098,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "all",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1098,
+    "end": 1109,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "all"
+  },
+  {
+    "begin": 1098,
+    "end": 1109,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "all"
+  },
+  {
+    "begin": 1109,
+    "end": 1110,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1109,
+    "end": 1110,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1110,
+    "end": 1111,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1110,
+    "end": 1111,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1111,
+    "end": 1112,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "moth",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1111,
+    "end": 1112,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "moth",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1112,
+    "end": 1113,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "moth"
+  },
+  {
+    "begin": 1112,
+    "end": 1113,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "moth"
+  },
+  {
+    "begin": 1113,
+    "end": 1115,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1113,
+    "end": 1115,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1115,
+    "end": 1116,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1115,
+    "end": 1116,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1116,
+    "end": 1119,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1116,
+    "end": 1119,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1119,
+    "end": 1120,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1119,
+    "end": 1120,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1120,
+    "end": 1124,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1120,
+    "end": 1124,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1124,
+    "end": 1125,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1124,
+    "end": 1125,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1125,
+    "end": 1130,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1125,
+    "end": 1130,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1130,
+    "end": 1144,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1130,
+    "end": 1144,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1144,
+    "end": 1152,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1144,
+    "end": 1152,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1152,
+    "end": 1181,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1152,
+    "end": 1181,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1181,
+    "end": 1184,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1181,
+    "end": 1184,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1184,
+    "end": 1190,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1184,
+    "end": 1190,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1190,
+    "end": 1191,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1190,
+    "end": 1191,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1191,
+    "end": 1192,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1191,
+    "end": 1192,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1192,
+    "end": 1194,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1192,
+    "end": 1194,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1194,
+    "end": 1207,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1194,
+    "end": 1207,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1207,
+    "end": 1211,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1207,
+    "end": 1211,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1211,
+    "end": 1213,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1211,
+    "end": 1213,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1213,
+    "end": 1214,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1213,
+    "end": 1214,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1214,
+    "end": 1223,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1214,
+    "end": 1223,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1223,
+    "end": 1226,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1223,
+    "end": 1226,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1226,
+    "end": 1227,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1226,
+    "end": 1227,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1227,
+    "end": 1228,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1227,
+    "end": 1228,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1228,
+    "end": 1231,
+    "sentiment": -12,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1228,
+    "end": 1231,
+    "sentiment": -12,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1231,
+    "end": 1237,
+    "sentiment": 5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1231,
+    "end": 1237,
+    "sentiment": 5,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1237,
+    "end": 1241,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1237,
+    "end": 1241,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1241,
+    "end": 1243,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1241,
+    "end": 1243,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1243,
+    "end": 1249,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1243,
+    "end": 1249,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1249,
+    "end": 1251,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1249,
+    "end": 1251,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1251,
+    "end": 1262,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1251,
+    "end": 1262,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1262,
+    "end": 1268,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1262,
+    "end": 1268,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1268,
+    "end": 1270,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1268,
+    "end": 1270,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1270,
+    "end": 1277,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1270,
+    "end": 1277,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1277,
+    "end": 1283,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1277,
+    "end": 1283,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1283,
+    "end": 1289,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1283,
+    "end": 1289,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1289,
+    "end": 1290,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1289,
+    "end": 1290,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1290,
+    "end": 1291,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1290,
+    "end": 1291,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1291,
+    "end": 1292,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1291,
+    "end": 1292,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1292,
+    "end": 1300,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1292,
+    "end": 1300,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1300,
+    "end": 1317,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1300,
+    "end": 1317,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1317,
+    "end": 1323,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1317,
+    "end": 1323,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1323,
+    "end": 1324,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1323,
+    "end": 1324,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1324,
+    "end": 1329,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1324,
+    "end": 1329,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1329,
+    "end": 1330,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1329,
+    "end": 1330,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1330,
+    "end": 1336,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1330,
+    "end": 1336,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1336,
+    "end": 1343,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1336,
+    "end": 1343,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1343,
+    "end": 1344,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1343,
+    "end": 1344,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1344,
+    "end": 1345,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1344,
+    "end": 1345,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1345,
+    "end": 1350,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1345,
+    "end": 1350,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1350,
+    "end": 1351,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1350,
+    "end": 1351,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1351,
+    "end": 1379,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1351,
+    "end": 1379,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1379,
+    "end": 1381,
+    "sentiment": -9,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1379,
+    "end": 1381,
+    "sentiment": -9,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1381,
+    "end": 1395,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1381,
+    "end": 1395,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1395,
+    "end": 1396,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1395,
+    "end": 1396,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1396,
+    "end": 1404,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1396,
+    "end": 1404,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1404,
+    "end": 1406,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1404,
+    "end": 1406,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1406,
+    "end": 1407,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1406,
+    "end": 1407,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1407,
+    "end": 1408,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1407,
+    "end": 1408,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1408,
+    "end": 1409,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1408,
+    "end": 1409,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1409,
+    "end": 1414,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1409,
+    "end": 1414,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1414,
+    "end": 1415,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1414,
+    "end": 1415,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1415,
+    "end": 1416,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1415,
+    "end": 1416,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1416,
+    "end": 1417,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1416,
+    "end": 1417,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1417,
+    "end": 1418,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1417,
+    "end": 1418,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1418,
+    "end": 1419,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1418,
+    "end": 1419,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1419,
+    "end": 1422,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1419,
+    "end": 1422,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1422,
+    "end": 1424,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1422,
+    "end": 1424,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1424,
+    "end": 1426,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1424,
+    "end": 1426,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1426,
+    "end": 1428,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1426,
+    "end": 1428,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1428,
+    "end": 1429,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1428,
+    "end": 1429,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1429,
+    "end": 1430,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1429,
+    "end": 1430,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1430,
+    "end": 1431,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1430,
+    "end": 1431,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1431,
+    "end": 1433,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1431,
+    "end": 1433,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1433,
+    "end": 1435,
+    "sentiment": -12,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1433,
+    "end": 1435,
+    "sentiment": -12,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1435,
+    "end": 1442,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1435,
+    "end": 1442,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1442,
+    "end": 1447,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1442,
+    "end": 1447,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1447,
+    "end": 1450,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1447,
+    "end": 1450,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1450,
+    "end": 1455,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1450,
+    "end": 1455,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1455,
+    "end": 1465,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1455,
+    "end": 1465,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1465,
+    "end": 1472,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1465,
+    "end": 1472,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1472,
+    "end": 1473,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1472,
+    "end": 1473,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1473,
+    "end": 1485,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1473,
+    "end": 1485,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1485,
+    "end": 1486,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1485,
+    "end": 1486,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1486,
+    "end": 1487,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1486,
+    "end": 1487,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1487,
+    "end": 1488,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1487,
+    "end": 1488,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1488,
+    "end": 1489,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1488,
+    "end": 1489,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1489,
+    "end": 1490,
+    "sentiment": -12,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1489,
+    "end": 1490,
+    "sentiment": -12,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1490,
+    "end": 1491,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1490,
+    "end": 1491,
+    "sentiment": -7,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1491,
+    "end": 1494,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1491,
+    "end": 1494,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1494,
+    "end": 1497,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1494,
+    "end": 1497,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1497,
+    "end": 1500,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1497,
+    "end": 1500,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1500,
+    "end": 1506,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1500,
+    "end": 1506,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1506,
+    "end": 1509,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1506,
+    "end": 1509,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1509,
+    "end": 1511,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1509,
+    "end": 1511,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1511,
+    "end": 1513,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1511,
+    "end": 1513,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1513,
+    "end": 1517,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1513,
+    "end": 1517,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1517,
+    "end": 1518,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1517,
+    "end": 1518,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1518,
+    "end": 1520,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1518,
+    "end": 1520,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1520,
+    "end": 1527,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1520,
+    "end": 1527,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1527,
+    "end": 1551,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1527,
+    "end": 1551,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1551,
+    "end": 1561,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1551,
+    "end": 1561,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1561,
+    "end": 1569,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1561,
+    "end": 1569,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1569,
+    "end": 1577,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1569,
+    "end": 1577,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1577,
+    "end": 1578,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1577,
+    "end": 1578,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1578,
+    "end": 1579,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1578,
+    "end": 1579,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1579,
+    "end": 1580,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1579,
+    "end": 1580,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1580,
+    "end": 1585,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1580,
+    "end": 1585,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1585,
+    "end": 1588,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1585,
+    "end": 1588,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1588,
+    "end": 1593,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1588,
+    "end": 1593,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1593,
+    "end": 1594,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1593,
+    "end": 1594,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1594,
+    "end": 1598,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1594,
+    "end": 1598,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1598,
+    "end": 1609,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1598,
+    "end": 1609,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1609,
+    "end": 1610,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1609,
+    "end": 1610,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1610,
+    "end": 1614,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1610,
+    "end": 1614,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1614,
+    "end": 1615,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1614,
+    "end": 1615,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1615,
+    "end": 1624,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1615,
+    "end": 1624,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1624,
+    "end": 1630,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1624,
+    "end": 1630,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1630,
+    "end": 1638,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1630,
+    "end": 1638,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1638,
+    "end": 1645,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1638,
+    "end": 1645,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1645,
+    "end": 1685,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1645,
+    "end": 1685,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1685,
+    "end": 1689,
+    "sentiment": 11,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1685,
+    "end": 1689,
+    "sentiment": 11,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1689,
+    "end": 1690,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1689,
+    "end": 1690,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1690,
+    "end": 1691,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1690,
+    "end": 1691,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "peaseblossom",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1691,
+    "end": 1693,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1691,
+    "end": 1693,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "peaseblossom"
+  },
+  {
+    "begin": 1693,
+    "end": 1694,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1693,
+    "end": 1694,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "cobweb",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1694,
+    "end": 1701,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1694,
+    "end": 1701,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "cobweb"
+  },
+  {
+    "begin": 1701,
+    "end": 1702,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1701,
+    "end": 1702,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1702,
+    "end": 1704,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1702,
+    "end": 1704,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1704,
+    "end": 1705,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1704,
+    "end": 1705,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "mustardseed",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1705,
+    "end": 1709,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1705,
+    "end": 1709,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "mustardseed"
+  },
+  {
+    "begin": 1709,
+    "end": 1710,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1709,
+    "end": 1710,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1710,
+    "end": 1712,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1710,
+    "end": 1712,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1712,
+    "end": 1713,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1712,
+    "end": 1713,
+    "sentiment": 7,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1713,
+    "end": 1716,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1713,
+    "end": 1716,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1716,
+    "end": 1718,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1716,
+    "end": 1718,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1718,
+    "end": 1721,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1718,
+    "end": 1721,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1721,
+    "end": 1730,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1721,
+    "end": 1730,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1730,
+    "end": 1762,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1730,
+    "end": 1762,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1762,
+    "end": 1764,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1762,
+    "end": 1764,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1764,
+    "end": 1765,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1764,
+    "end": 1765,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1765,
+    "end": 1767,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1765,
+    "end": 1767,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1767,
+    "end": 1770,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1767,
+    "end": 1770,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1770,
+    "end": 1771,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1770,
+    "end": 1771,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1771,
+    "end": 1772,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1771,
+    "end": 1772,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1772,
+    "end": 1781,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1772,
+    "end": 1781,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1781,
+    "end": 1783,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1781,
+    "end": 1783,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1783,
+    "end": 1787,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1783,
+    "end": 1787,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 1787,
+    "end": 1795,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1787,
+    "end": 1795,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 1795,
+    "end": 1804,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1795,
+    "end": 1804,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "titania"
+  },
+  {
+    "begin": 1804,
+    "end": 1811,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1804,
+    "end": 1811,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1811,
+    "end": 1820,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 1811,
+    "end": 1820,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 1820,
+    "end": 1824,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1820,
+    "end": 1824,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1824,
+    "end": 1829,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 1824,
+    "end": 1829,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 1829,
+    "end": 1830,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1829,
+    "end": 1830,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1830,
+    "end": 1835,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 1830,
+    "end": 1835,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 1835,
+    "end": 1836,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1835,
+    "end": 1836,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1836,
+    "end": 1841,
+    "sentiment": -13,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1836,
+    "end": 1841,
+    "sentiment": -13,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1841,
+    "end": 1849,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1841,
+    "end": 1849,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1849,
+    "end": 1855,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1849,
+    "end": 1855,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "egeus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1855,
+    "end": 1872,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 1855,
+    "end": 1872,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "egeus"
+  },
+  {
+    "begin": 1872,
+    "end": 1883,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1872,
+    "end": 1883,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1883,
+    "end": 1885,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1883,
+    "end": 1885,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 1885,
+    "end": 1887,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1885,
+    "end": 1887,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1887,
+    "end": 1890,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1887,
+    "end": 1890,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1890,
+    "end": 1894,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1890,
+    "end": 1894,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1894,
+    "end": 1895,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1894,
+    "end": 1895,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hermia",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1895,
+    "end": 1896,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1895,
+    "end": 1896,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "helena",
+    "last_char": "hermia"
+  },
+  {
+    "begin": 1896,
+    "end": 1897,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1896,
+    "end": 1897,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "helena"
+  },
+  {
+    "begin": 1897,
+    "end": 1899,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1897,
+    "end": 1899,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 1899,
+    "end": 1924,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1899,
+    "end": 1924,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 1924,
+    "end": 1925,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1924,
+    "end": 1925,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1925,
+    "end": 1926,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1925,
+    "end": 1926,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "starveling",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1926,
+    "end": 1928,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 1926,
+    "end": 1928,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "starveling"
+  },
+  {
+    "begin": 1928,
+    "end": 1930,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1928,
+    "end": 1930,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1930,
+    "end": 1932,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1930,
+    "end": 1932,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1932,
+    "end": 1934,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1932,
+    "end": 1934,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1934,
+    "end": 1939,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1934,
+    "end": 1939,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1939,
+    "end": 1942,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "snug",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1939,
+    "end": 1942,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "snug",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1942,
+    "end": 1950,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "snug"
+  },
+  {
+    "begin": 1942,
+    "end": 1950,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "flute",
+    "last_char": "snug"
+  },
+  {
+    "begin": 1950,
+    "end": 1951,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1950,
+    "end": 1951,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "flute"
+  },
+  {
+    "begin": 1951,
+    "end": 1952,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1951,
+    "end": 1952,
+    "sentiment": 6,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1952,
+    "end": 1955,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1952,
+    "end": 1955,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1955,
+    "end": 1956,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1955,
+    "end": 1956,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "quince",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1956,
+    "end": 1986,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1956,
+    "end": 1986,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "quince"
+  },
+  {
+    "begin": 1986,
+    "end": 1987,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1986,
+    "end": 1987,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 1987,
+    "end": 2008,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 1987,
+    "end": 2008,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2008,
+    "end": 2016,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2008,
+    "end": 2016,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2016,
+    "end": 2019,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2016,
+    "end": 2019,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2019,
+    "end": 2021,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2019,
+    "end": 2021,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2021,
+    "end": 2028,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2021,
+    "end": 2028,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2028,
+    "end": 2029,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2028,
+    "end": 2029,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2029,
+    "end": 2032,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2029,
+    "end": 2032,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2032,
+    "end": 2035,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2032,
+    "end": 2035,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2035,
+    "end": 2052,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2035,
+    "end": 2052,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2052,
+    "end": 2062,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2052,
+    "end": 2062,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2062,
+    "end": 2063,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2062,
+    "end": 2063,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2063,
+    "end": 2067,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2063,
+    "end": 2067,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2067,
+    "end": 2068,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2067,
+    "end": 2068,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2068,
+    "end": 2074,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2068,
+    "end": 2074,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2074,
+    "end": 2079,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2074,
+    "end": 2079,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2079,
+    "end": 2081,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2079,
+    "end": 2081,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2081,
+    "end": 2082,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2081,
+    "end": 2082,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2082,
+    "end": 2083,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2082,
+    "end": 2083,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2083,
+    "end": 2103,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2083,
+    "end": 2103,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2103,
+    "end": 2104,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2103,
+    "end": 2104,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "philostrate",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2104,
+    "end": 2108,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2104,
+    "end": 2108,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "philostrate"
+  },
+  {
+    "begin": 2108,
+    "end": 2118,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "prologue",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2108,
+    "end": 2118,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "prologue",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2118,
+    "end": 2119,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "prologue"
+  },
+  {
+    "begin": 2118,
+    "end": 2119,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "prologue"
+  },
+  {
+    "begin": 2119,
+    "end": 2122,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2119,
+    "end": 2122,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2122,
+    "end": 2124,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2122,
+    "end": 2124,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2124,
+    "end": 2130,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2124,
+    "end": 2130,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2130,
+    "end": 2157,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "prologue",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2130,
+    "end": 2157,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "prologue",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2157,
+    "end": 2158,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "prologue"
+  },
+  {
+    "begin": 2157,
+    "end": 2158,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "prologue"
+  },
+  {
+    "begin": 2158,
+    "end": 2159,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2158,
+    "end": 2159,
+    "sentiment": -4,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2159,
+    "end": 2169,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "wall",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2159,
+    "end": 2169,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "wall",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2169,
+    "end": 2170,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "wall"
+  },
+  {
+    "begin": 2169,
+    "end": 2170,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "wall"
+  },
+  {
+    "begin": 2170,
+    "end": 2175,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2170,
+    "end": 2175,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2175,
+    "end": 2176,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2175,
+    "end": 2176,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2176,
+    "end": 2189,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2176,
+    "end": 2189,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2189,
+    "end": 2190,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2189,
+    "end": 2190,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2190,
+    "end": 2196,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2190,
+    "end": 2196,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2196,
+    "end": 2200,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2196,
+    "end": 2200,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2200,
+    "end": 2203,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2200,
+    "end": 2203,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2203,
+    "end": 2204,
+    "sentiment": 8,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2203,
+    "end": 2204,
+    "sentiment": 8,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2204,
+    "end": 2206,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2204,
+    "end": 2206,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2206,
+    "end": 2207,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2206,
+    "end": 2207,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2207,
+    "end": 2208,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2207,
+    "end": 2208,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2208,
+    "end": 2209,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2208,
+    "end": 2209,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2209,
+    "end": 2210,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2209,
+    "end": 2210,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2210,
+    "end": 2211,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2210,
+    "end": 2211,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2211,
+    "end": 2212,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2211,
+    "end": 2212,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2212,
+    "end": 2214,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2212,
+    "end": 2214,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2214,
+    "end": 2216,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wall",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2214,
+    "end": 2216,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "wall",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2216,
+    "end": 2217,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "wall"
+  },
+  {
+    "begin": 2216,
+    "end": 2217,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "wall"
+  },
+  {
+    "begin": 2217,
+    "end": 2219,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2217,
+    "end": 2219,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2219,
+    "end": 2220,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2219,
+    "end": 2220,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2220,
+    "end": 2222,
+    "sentiment": -8,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2220,
+    "end": 2222,
+    "sentiment": -8,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2222,
+    "end": 2223,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2222,
+    "end": 2223,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2223,
+    "end": 2229,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2223,
+    "end": 2229,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2229,
+    "end": 2237,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "lion",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2229,
+    "end": 2237,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "lion",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2237,
+    "end": 2238,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lion"
+  },
+  {
+    "begin": 2237,
+    "end": 2238,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lion"
+  },
+  {
+    "begin": 2238,
+    "end": 2239,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2238,
+    "end": 2239,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2239,
+    "end": 2240,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2239,
+    "end": 2240,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2240,
+    "end": 2241,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2240,
+    "end": 2241,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2241,
+    "end": 2243,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2241,
+    "end": 2243,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2243,
+    "end": 2246,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2243,
+    "end": 2246,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2246,
+    "end": 2247,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moonshine",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2246,
+    "end": 2247,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moonshine",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2247,
+    "end": 2248,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "moonshine"
+  },
+  {
+    "begin": 2247,
+    "end": 2248,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "moonshine"
+  },
+  {
+    "begin": 2248,
+    "end": 2250,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2248,
+    "end": 2250,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2250,
+    "end": 2252,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moonshine",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2250,
+    "end": 2252,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moonshine",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2252,
+    "end": 2254,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "moonshine"
+  },
+  {
+    "begin": 2252,
+    "end": 2254,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "moonshine"
+  },
+  {
+    "begin": 2254,
+    "end": 2256,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2254,
+    "end": 2256,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2256,
+    "end": 2257,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2256,
+    "end": 2257,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2257,
+    "end": 2260,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2257,
+    "end": 2260,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2260,
+    "end": 2261,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2260,
+    "end": 2261,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2261,
+    "end": 2264,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moonshine",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2261,
+    "end": 2264,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "moonshine",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2264,
+    "end": 2269,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "moonshine"
+  },
+  {
+    "begin": 2264,
+    "end": 2269,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "moonshine"
+  },
+  {
+    "begin": 2269,
+    "end": 2270,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2269,
+    "end": 2270,
+    "sentiment": 4,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2270,
+    "end": 2271,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lion",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2270,
+    "end": 2271,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "lion",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2271,
+    "end": 2272,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lion"
+  },
+  {
+    "begin": 2271,
+    "end": 2272,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lion"
+  },
+  {
+    "begin": 2272,
+    "end": 2273,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2272,
+    "end": 2273,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2273,
+    "end": 2275,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2273,
+    "end": 2275,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2275,
+    "end": 2279,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2275,
+    "end": 2279,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2279,
+    "end": 2280,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2279,
+    "end": 2280,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2280,
+    "end": 2281,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2280,
+    "end": 2281,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2281,
+    "end": 2297,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2281,
+    "end": 2297,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2297,
+    "end": 2299,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2297,
+    "end": 2299,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2299,
+    "end": 2300,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2299,
+    "end": 2300,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2300,
+    "end": 2316,
+    "sentiment": -21,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2300,
+    "end": 2316,
+    "sentiment": -21,
+    "changed": true,
+    "current_char": "pyramus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2316,
+    "end": 2317,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2316,
+    "end": 2317,
+    "sentiment": -6,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "pyramus"
+  },
+  {
+    "begin": 2317,
+    "end": 2318,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2317,
+    "end": 2318,
+    "sentiment": -3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2318,
+    "end": 2320,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2318,
+    "end": 2320,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2320,
+    "end": 2325,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2320,
+    "end": 2325,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2325,
+    "end": 2327,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2325,
+    "end": 2327,
+    "sentiment": 2,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2327,
+    "end": 2329,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2327,
+    "end": 2329,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "hippolyta",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2329,
+    "end": 2332,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2329,
+    "end": 2332,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "hippolyta"
+  },
+  {
+    "begin": 2332,
+    "end": 2333,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2332,
+    "end": 2333,
+    "sentiment": 3,
+    "changed": true,
+    "current_char": "lysander",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2333,
+    "end": 2334,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2333,
+    "end": 2334,
+    "sentiment": -2,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "lysander"
+  },
+  {
+    "begin": 2334,
+    "end": 2358,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2334,
+    "end": 2358,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "thisby",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2358,
+    "end": 2359,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2358,
+    "end": 2359,
+    "sentiment": -5,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "thisby"
+  },
+  {
+    "begin": 2359,
+    "end": 2360,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2359,
+    "end": 2360,
+    "sentiment": -1,
+    "changed": true,
+    "current_char": "demetrius",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2360,
+    "end": 2363,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2360,
+    "end": 2363,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "bottom",
+    "last_char": "demetrius"
+  },
+  {
+    "begin": 2363,
+    "end": 2380,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 2363,
+    "end": 2380,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "theseus",
+    "last_char": "bottom"
+  },
+  {
+    "begin": 2380,
+    "end": 2403,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2380,
+    "end": 2403,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "theseus"
+  },
+  {
+    "begin": 2403,
+    "end": 2409,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 2403,
+    "end": 2409,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "puck"
+  },
+  {
+    "begin": 2409,
+    "end": 2416,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 2409,
+    "end": 2416,
+    "sentiment": 0,
+    "changed": true,
+    "current_char": "titania",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 2416,
+    "end": 2438,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 2416,
+    "end": 2438,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "oberon",
+    "last_char": "titania"
+  },
+  {
+    "begin": 2438,
+    "end": 63,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  },
+  {
+    "begin": 2438,
+    "end": 2438,
+    "sentiment": 1,
+    "changed": true,
+    "current_char": "puck",
+    "last_char": "oberon"
+  }
+]

@@ -175,15 +175,12 @@ class PlayVis:
                         line_group['last_char'] = line_group['last_char'].name
                     data.append(line_group)
                     changed == True
-            if not changed:
-                data.append({'changed': False})
         data_string = json.dumps(data)
-        print data_string
         out = open('output.json', 'w')
         out.write(data_string)
 
 if __name__ == '__main__':
-    pv = PlayVis('texts/hamlet.txt', 'output.txt')
+    pv = PlayVis('texts/romeo_juliet.txt', 'output.txt')
     pv.format_paper()
     pv.find_characters()
     #print pv.character_lines
@@ -192,3 +189,4 @@ if __name__ == '__main__':
            #print character.__dict__
     pv.sentiment_analysis()
     pv.to_json()
+    print 'characters: ', len( pv.characters)
