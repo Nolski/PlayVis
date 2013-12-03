@@ -4,108 +4,31 @@
     <meta charset="UTF-8">
     <title>PlayVis</title>
     <style>
-        .chart rect {
-          fill: steelblue;
-        }
 
-        .chart text {
-          fill: white;
-          font: 10px sans-serif;
-          text-anchor: end;
-        }
+    rect {
+      fill: none;
+      pointer-events: all;
+    }
+
+    .node {
+      fill: #000;
+    }
+
+    .cursor {
+      fill: none;
+      stroke: brown;
+      pointer-events: none;
+    }
+
+    .link {
+      stroke: #999;
+    }
+
     </style>
 </head>
 <body>
     <div id="chart"></div>
 </body>
 <script src="d3.js"></script>
-<script>
-    var w = 840,
-        h = 500,
-        nodes = {};
-    var svg = d3.select("#chart").append("svg:svg")
-        .attr("width", w)
-        .attr("height", h);
-    var links = [
-        {source: "Microsoft", target: "Amazon", type: "licensing"},
-        {source: "Microsoft", target: "HTC", type: "licensing"},
-        {source: "Samsung", target: "Apple", type: "suit"},
-        {source: "Motorola", target: "Apple", type: "suit"},
-        {source: "Nokia", target: "Apple", type: "resolved"},
-        {source: "HTC", target: "Apple", type: "suit"},
-        {source: "Kodak", target: "Apple", type: "suit"},
-        {source: "Microsoft", target: "Barnes & Noble", type: "suit"},
-        {source: "Microsoft", target: "Foxconn", type: "suit"},
-        {source: "Oracle", target: "Google", type: "suit"},
-        {source: "Apple", target: "HTC", type: "suit"},
-        {source: "Microsoft", target: "Inventec", type: "suit"},
-        {source: "Samsung", target: "Kodak", type: "resolved"},
-        {source: "LG", target: "Kodak", type: "resolved"},
-        {source: "RIM", target: "Kodak", type: "suit"},
-        {source: "Sony", target: "LG", type: "suit"},
-        {source: "Kodak", target: "LG", type: "resolved"},
-        {source: "Apple", target: "Nokia", type: "resolved"},
-        {source: "Qualcomm", target: "Nokia", type: "resolved"},
-        {source: "Apple", target: "Motorola", type: "suit"},
-        {source: "Microsoft", target: "Motorola", type: "suit"},
-        {source: "Motorola", target: "Microsoft", type: "suit"},
-        {source: "Huawei", target: "ZTE", type: "suit"},
-        {source: "Ericsson", target: "ZTE", type: "suit"},
-        {source: "Kodak", target: "Samsung", type: "resolved"},
-        {source: "Apple", target: "Samsung", type: "suit"},
-        {source: "Kodak", target: "RIM", type: "suit"},
-        {source: "Nokia", target: "Qualcomm", type: "suit"}
-    ];
-
-    links.forEach(function (link) {
-        link.source = nodes[link.source] || (nodes[link.source] = {name: link.source}); // Update or assign source
-        link.target = nodes[link.target] || (nodes[link.target] = {name: link.target}); // Update or assign target
-    });
-
-    var force = d3.layout.force()
-        .nodes(d3.values(nodes))
-        .links(links)
-        .size([w, h])
-        .linkDistance(80)
-        .charge(-500)
-        .on("tick", tick)
-        .start();
-
-    var path = svg.append("svg:g").selectAll("path")
-        .data(force.links())
-      .enter().append("svg:path")
-        .attr("class", function(d) { return "link " + d.type; })
-        .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
-
-    var circle = svg.append("svg:g").selectAll("circle")
-        .data(force.nodes())
-      .enter().append("svg:circle")
-        .attr("r", 8)
-        .call(force.drag);
-
-// Use elliptical arc path segments to doubly-encode directionality.
-function tick() {
-    path.attr("d", function(d) {
-        var dx = d.target.x - d.source.x,
-            dy = d.target.y - d.source.y,
-            dr = Math.sqrt(dx * dx + dy * dy);
-
-        return "M" + d.source.x + "," + d.source.y + d.target.x + "," + d.target.y;
-    });
-
-    path.attr("d", function(d) {
-    var dx = d.target.x - d.source.x,
-        dy = d.target.y - d.source.y,
-        dr = Math.sqrt(dx * dx + dy * dy);
-        return "M" + d.source.x + "," + d.source.y + "L" + d.target.x + "," + d.target.y;
-    });
-
-    path.attr('stroke', 'red');
-    path.attr('stroke-width', 3);
-    path.attr('fill-opacity', 0);
-    circle.attr("transform", function(d) {
-        return "translate(" + d.x + "," + d.y + ")";
-    });
-}
-</script>
+<script src="script.js"></script>
 </html>
