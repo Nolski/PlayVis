@@ -3,7 +3,7 @@ var width = window.innerWidth,
 
 var force = d3.layout.force()
     .size([width, height])
-    .nodes([{}])
+    .nodes([])
     .linkStrength(.5)
     .linkDistance(100)
     .charge(-1000)
