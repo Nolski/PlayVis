@@ -173,4 +173,5 @@ if __name__ == '__main__':
            #print character.__dict__
     pv.sentiment_analysis()
     for line in pv.character_lines:
-        print line['sentiment']
+        print line
+        #print line['sentiment']
