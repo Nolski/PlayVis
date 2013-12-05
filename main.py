@@ -165,17 +165,17 @@ class PlayVis:
             line_group['sentiment'] = total
     def to_json(self):
         data = []
-        print self.file_length
         for ii in range(1, self.file_length + 1):
             #append all things that happend at line ii
             changed = False
             for line_group in self.character_lines:
                 if line_group['begin'] == ii:
                     line_group['changed'] = True
-                    if not line_group['last_char'] == None:
+                    if line_group['last_char'] != None:
                         line_group['last_char'] = line_group['last_char'].name
                     data.append(line_group)
                     changed == True
+                    break;
         data_string = json.dumps(data)
         out = open('output.json', 'w')
         out.write(data_string)
