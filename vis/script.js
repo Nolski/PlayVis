@@ -5,8 +5,8 @@ var force = d3.layout.force()
     .size([width, height])
     .nodes([])
     .linkStrength(.5)
-    .linkDistance(100)
-    .charge(-1000)
+    .linkDistance(110)
+    .charge(-300)
     .on("tick", tick);
 
 var svg = d3.select("body").append("svg")
@@ -84,16 +84,13 @@ function tick() {
             var sent = scale(d.sentiment),
                 g = Math.floor(sent),
                 r = Math.floor(255 - sent);
-            if (d.name == 'hamlet') {
-                //console.log("rgb(" + r+", "+g+",0)");
-            };
             return("fill:rgb(" + r+", "+g+",0)");
         });
 
     texts.attr("transform", function (d) {
         return "translate(" + d.x + "," + d.y + ")";
     })
-    .text(function (d) {  return d.name + d.sentiment;  });
+    .text(function (d) {  return d.name + ' (' + d.sentiment + ')';  });
 }
 
 function update() {
