@@ -7,3 +7,20 @@ One thing that I encountered when labeling the data was that sentiment is very h
 
 The use of early modern english in these Shakespearian plays made sentiment attribution difficult even when being interpereted manually. This is something to consider when running the application on different types of plays.
 
+preprocessing:
+
+Create Playvis Project and Load in file
+Format paper and mark down beginning of character lines.
+Go through all character lines and extract character objects.
+Perform sentiment analysis on each character object.
+Output all data to json
+
+pv = PlayVis(sys.argv[1], 'output.txt')
+    pv.format_paper()
+    pv.find_characters()
+    #print pv.character_lines
+    #for character in pv.characteracters:
+        #if character.lines:
+           #print character.__dict__
+    pv.sentiment_analysis()
+    pv.to_json()
