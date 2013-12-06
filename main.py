@@ -11,7 +11,7 @@ from string import punctuation
 d = enchant.Dict("en_US") #create english dictionary
 
 sDict = {} # create dictionary of sentiment words
-sent = open('sentiment.txt')
+sent = open('sentiment/sentiment.txt')
 for line in sent:
     line = line.split()
     #print line
@@ -20,7 +20,7 @@ for line in sent:
     sDict[key] = value
 
 sDict2 = {} # create dictionary of sentiment words
-sent = open('lsd.txt')
+sent = open('sentiment/lsd.txt')
 for line in sent:
     line = line.lower()
     line = line.translate(None,'*')
