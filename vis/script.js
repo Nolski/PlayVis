@@ -35,39 +35,63 @@ update();
 d3.json('output.json', function (error, json) {
     var i = 0;
     window.id = window.setInterval(function () {
+        if (i >= json.length) {
+            window.clearInterval(window.id);
+            return;
+        }
         var d = json[i];
-        if(d.changed){
-            if (d.current_char in node_names == false) {
-                var node = { name: d.current_char, lines: 5, sentiment: d.sentiment },
-                    n = nodes.push(node);
-                node_names[d.current_char] = node;
-            } else {
-                node_names[d.current_char].lines += 0.1;
-            }
-            if([d.current_char, d.last_char] in link_names == false) {
-                if (d.last_char != null) {
-                    if (d.last_char in node_names) {
-                        links.push({source: node_names[d.current_char], target: node_names[d.last_char]});
-                        if (node_names[d.last_char].sentiment != undefined) {
-                            node_names[d.last_char].sentiment += d.sentiment;
-                        } else {
-                             node_names[d.last_char].sentiment = d.sentiment;
-                        }
-                        if (node_names[d.last_char].sentiment > max) {
-                            max = node_names[d.last_char].sentiment;
-                        };
-                        if(node_names[d.last_char].sentiment < min) {
-                            min = node_names[d.last_char].sentiment;
-                        }
-                    }
+    
+        if (d.current_char in node_names == false) { // if new character
+            var node = { name: d.current_char, lines: 5, sentiment: d.sentiment, last_line: i };
+            
+            nodes.push(node);
+            node_names[d.current_char] = node;
+        } else {
+            node_names[d.current_char].lines += 0.1; // increment character size
+        }
+
+    
+        if (d.last_char != null) { //make sure our character is talking to someone
+            if (d.last_char in node_names) { // Make sure the previous character is a character
+
+                links.push({source: node_names[d.current_char], target: node_names[d.last_char]}); // create a link
+                
+                if (node_names[d.last_char].sentiment != undefined) { //add sentiment (or create sentiment)
+                    node_names[d.last_char].sentiment += d.sentiment;
+                } else {
+                     node_names[d.last_char].sentiment = d.sentiment;
+                }
+                
+                if (node_names[d.last_char].sentiment > max) { // modify max sentiment
+                    max = node_names[d.last_char].sentiment;
+                }
+                
+                if(node_names[d.last_char].sentiment < min) {// modify minsentiment
+                    min = node_names[d.last_char].sentiment;
                 }
             }
         }
+
+
+        for (var ii = 0; ii < nodes.length; ii++) {
+            node = nodes[ii];
+            if (i - node.last_line > 250) {
+                nodes.splice(i, 1);
+            }
+            
+        };    
+    
         i++;
         update();
-    }, 1);
+    }, 10);
 });
 
+
+/**
+ * This runs on every increment of the animation in d3.
+ * Totally magical
+ * @return {None} none
+ */
 function tick() {
     link.attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
@@ -93,9 +117,13 @@ function tick() {
     .text(function (d) {  return d.name + ' (' + d.sentiment + ')';  });
 }
 
+/**
+ * This function updates all of our data arrays which will change how the graph
+ * is desplayed
+ * @return {None} none
+ */
 function update() {
     link = link.data(links);
-
     link.enter().insert("line", ".node")
         .attr("class", "link");
 
