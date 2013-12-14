@@ -1,10 +1,13 @@
 var width = window.innerWidth,
-    height = window.innerHeight;
+    height = window.innerHeight,
+    nodes = [],
+    links = [];
 
 var force = d3.layout.force()
     .size([width, height])
-    .nodes([])
-    .linkStrength(.5)
+    .nodes(nodes)
+    .links([])
+    .linkStrength(1)
     .linkDistance(110)
     .charge(-300)
     .on("tick", tick);
@@ -17,9 +20,7 @@ svg.append("rect")
     .attr("width", width)
     .attr("height", height);
 
-var nodes = force.nodes(),
-    links = force.links(),
-    node_names = {},
+var node_names = {},
     link_names = {},
     node = svg.selectAll(".node"),
     link = svg.selectAll(".link");
@@ -30,11 +31,19 @@ var min = 0,
     max = 0;
 
 var colors = d3.scale.category10();
+
+
 update();
 
 d3.json('output.json', function (error, json) {
+    var timeline = d3.scale.linear()
+            .range([0, 100])
+            .domain([0, json.length]);
     var i = 0;
     window.id = window.setInterval(function () {
+        var time_width = timeline(i);
+        d3.select('#time')
+            .attr('style', 'width: '+time_width+'%');
         if (i >= json.length) {
             window.clearInterval(window.id);
             return;
@@ -53,8 +62,10 @@ d3.json('output.json', function (error, json) {
     
         if (d.last_char != null) { //make sure our character is talking to someone
             if (d.last_char in node_names) { // Make sure the previous character is a character
-
-                links.push({source: node_names[d.current_char], target: node_names[d.last_char]}); // create a link
+                var currLink = {source: node_names[d.current_char], target: node_names[d.last_char]};
+                if (links.indexOf(currLink == -1)) {
+                    links.push(currLink); // create a link
+                }
                 
                 if (node_names[d.last_char].sentiment != undefined) { //add sentiment (or create sentiment)
                     node_names[d.last_char].sentiment += d.sentiment;
@@ -73,13 +84,13 @@ d3.json('output.json', function (error, json) {
         }
 
 
-        for (var ii = 0; ii < nodes.length; ii++) {
+        /*for (var ii = 0; ii < nodes.length; ii++) {
             node = nodes[ii];
             if (i - node.last_line > 250) {
                 nodes.splice(i, 1);
             }
             
-        };    
+        };*/    
     
         i++;
         update();
@@ -146,6 +157,18 @@ function update() {
             return("rgb(" + r+", "+g+",0)");
         })
         .call(force.drag);
+
+    node.exit()
+        .transition()
+        .attr("x",320)
+        .each("end",function() { 
+        d3.select(this).       // so far, as above
+            remove();            // we delete the object instead 
+        });
+
+    node.on('mouseover', function (d) {
+        console.log(d);
+    });
 
     texts.enter().append("text")
         .attr("class", "label")
