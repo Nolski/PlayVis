@@ -1,7 +1,8 @@
 var width = window.innerWidth,
     height = window.innerHeight,
     nodes = [],
-    links = [];
+    links = [],
+    linkNames = [];
 
 var force = d3.layout.force()
     .size([width, height])
@@ -9,7 +10,13 @@ var force = d3.layout.force()
     .links([])
     .linkStrength(1)
     .linkDistance(110)
-    .charge(-300)
+    .charge(function (d) {
+        if(d.status == 'active') {
+            return -600;
+        } else {
+            return -300;
+        }
+    })
     .on("tick", tick);
 
 var svg = d3.select("body").append("svg")
@@ -41,13 +48,15 @@ d3.json('output.json', function (error, json) {
             .domain([0, json.length]);
     var i = 0;
     window.id = window.setInterval(function () {
-        var time_width = timeline(i);
-        d3.select('#time')
-            .attr('style', 'width: '+time_width+'%');
+        update();
         if (i >= json.length) {
-            window.clearInterval(window.id);
             return;
         }
+        
+        var time_width = timeline(i);
+        d3.select('#time')
+            .attr('style', 'width: ' + time_width + '%');
+
         var d = json[i];
     
         if (d.current_char in node_names == false) { // if new character
@@ -59,14 +68,38 @@ d3.json('output.json', function (error, json) {
             node_names[d.current_char].lines += 0.1; // increment character size
         }
 
-    
+        var current_char = node_names[d.current_char];
+
         if (d.last_char != null) { //make sure our character is talking to someone
-            if (d.last_char in node_names) { // Make sure the previous character is a character
-                var currLink = {source: node_names[d.current_char], target: node_names[d.last_char]};
-                if (links.indexOf(currLink == -1)) {
-                    links.push(currLink); // create a link
-                }
+            if (d.last_char in node_names) { // Make sure the previous character is not null
                 
+                // HANDLE LINKING ////////////
+                var currLink = {
+                        source: current_char, 
+                        target: node_names[d.last_char], 
+                        style: 'inactive'
+                    },
+                    linkName = current_char.name  +'-'+ node_names[d.last_char].name;
+
+                if (linkNames.indexOf(linkName) == -1) {
+                    linkNames.push(linkName)
+                    links.push(currLink); // create a link
+
+                    if (current_char['links'] == undefined){
+                        current_char['links'] = [];
+                    }
+
+                    current_char['links'].push(currLink);
+                }
+
+                
+                if (current_char['neighbors'] == undefined){
+                    current_char['neighbors'] = [];
+                }
+
+                current_char['neighbors'].push(currLink);
+
+                // HANDLE SENTIMENT ///////////
                 if (node_names[d.last_char].sentiment != undefined) { //add sentiment (or create sentiment)
                     node_names[d.last_char].sentiment += d.sentiment;
                 } else {
@@ -81,20 +114,10 @@ d3.json('output.json', function (error, json) {
                     min = node_names[d.last_char].sentiment;
                 }
             }
-        }
-
-
-        /*for (var ii = 0; ii < nodes.length; ii++) {
-            node = nodes[ii];
-            if (i - node.last_line > 250) {
-                nodes.splice(i, 1);
-            }
-            
-        };*/    
+        }   
     
         i++;
-        update();
-    }, 10);
+    }, 1);
 });
 
 
@@ -104,15 +127,30 @@ d3.json('output.json', function (error, json) {
  * @return {None} none
  */
 function tick() {
-    link.attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
+    link.attr("x1", function (d) { return d.source.x; })
+      .attr("y1", function (d) { return d.source.y; })
+      .attr("x2", function (d) { return d.target.x; })
+      .attr("y2", function (d) { return d.target.y; })
+      .transition()
+      .attr('style', function (d) {
+          if (d.state == 'active') {
+              return 'stroke: red; stroke-width:5px;';
+          } else {
+            return 'stroke: black;'
+          }
+      })
+      .attr('opacity', function (d) {
+          if (d.state == 'active') {
+              return 0.7;
+          } else {
+            return 1;
+          }
+      });
 
-    node.attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; })
+    node.attr("cx", function (d) { return d.x; })
+      .attr("cy", function (d) { return d.y; })
       .attr("r", function (d) { return d.lines })
-      .attr("style", function(d) {
+      .attr("style", function (d) {
             var scale = d3.scale.linear()
                 .range([0, 255])
                 .domain([min, max]);
@@ -167,14 +205,27 @@ function update() {
         });
 
     node.on('mouseover', function (d) {
-        console.log(d);
+        node.active = true;
+        // TODO: Display some information or something on the node
+        d.links.forEach(function (link) {
+            link.state = 'active';
+        });
+    });
+
+    node.on('mouseout', function (d) {
+        node.active = false;
+        d.links.forEach(function (link) {
+            link.state = 'inactive';
+        });
     });
 
     texts.enter().append("text")
         .attr("class", "label")
         .attr("fill", "black")
+        .style("pointer-events", "none")
         .text(function (d) {  return d.name + d.sentiment;  });
 
 
     force.start();
 }
+
