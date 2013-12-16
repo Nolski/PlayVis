@@ -59,6 +59,7 @@ rect {
   background-color: #27ae60;
   color: #FFF;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .col-md-8, .col-md-4 {
