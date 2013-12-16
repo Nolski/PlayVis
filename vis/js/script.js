@@ -4,7 +4,9 @@ var width = Math.floor(parseFloat(window.getComputedStyle(document.querySelector
     links = [],
     linkNames = [],
     paused = false,
-    menu = false;
+    menu = false,
+    neighbors = false,
+    curr_node = null;
 
 
 var force = d3.layout.force()
@@ -38,8 +40,9 @@ var min = 0,
 
 var colors = d3.scale.category10();
 
+update();
+
 document.getElementById('stop').addEventListener('click', function (event) {
-    console.log(event);
     if (!paused) {
         window.clearInterval(window.id);
         d3.select('#stop')
@@ -55,6 +58,23 @@ document.getElementById('stop').addEventListener('click', function (event) {
     paused = !paused;
 });
 
+document.getElementById('neighbors').addEventListener('click', function (event) {
+    if (!neighbors) {
+        showNeighbors(curr_node)
+        d3.select('#neighbors').html('Show All Nodes');
+    } else {
+        unshowNeighbors()
+        d3.select('#neighbors').html('Show Only Neighbors');
+    }
+
+    neighbors = !neighbors;
+});
+
+/**
+ * Click event handler for slider tray on mobile
+ * @param  {event} event 
+ * @return {none}       none
+ */
 document.getElementById('up').addEventListener('click', function (event) {
     if (!menu) {
         var side = window.getComputedStyle(document.getElementsByClassName('side')[0]).height.replace('px', '');
@@ -81,9 +101,8 @@ document.getElementById('up').addEventListener('click', function (event) {
 
     menu = !menu;
 });
-update();
 
-d3.json('output.json', function (error, json) {
+d3.json('output.json', function (error, json) { // ajax for the json and start the animation
     window.timeline = d3.scale.linear()
             .range([0, 100])
             .domain([0, json.length]);
@@ -174,6 +193,31 @@ function interval () {
     i++;
 }
 
+function showNeighbors(node) {
+    old_nodes = nodes;
+    old_links = links;
+    nodes = [];
+    links = [];
+
+    svg.selectAll("text.label").remove();
+    texts = texts.data(nodes);
+    nodes.push(node);
+    node.links.forEach(function (link) {
+        if(link.source.name == node.name) {
+            nodes.push(link.target);
+            links.push(link);
+        }
+    });
+
+    update();
+}
+
+function unshowNeighbors() {
+    nodes = old_nodes;
+    links = old_links;
+    update();
+}
+
 function findLink (target, links) {
     var result = false,
         i = 0;
@@ -224,12 +268,14 @@ function tick() {
                 r = Math.floor(255 - sent);
             return("fill:rgb(" + r+", "+g+",0)");
         });
-
-    texts.attr("transform", function (d) {
-        return "translate(" + d.x + "," + d.y + ")";
-    })
-    .text(function (d) {  return d.name + ' (' + d.sentiment + ')';  });
+    if (texts != []) {
+        texts.attr("transform", function (d) {
+            return "translate(" + d.x + "," + d.y + ")";
+        })
+        .text(function (d) {  return d.name + ' (' + d.sentiment + ')';  });
+    };
 }
+
 
 /**
  * This function updates all of our data arrays which will change how the graph
@@ -245,7 +291,7 @@ function update() {
 
     node = node.data(nodes);
 
-    texts = texts.data(force.nodes());
+    texts = texts.data(nodes);
         
 
     node.enter().insert("circle", ".cursor")
@@ -280,6 +326,11 @@ function update() {
     });
 
     node.on('click', function (d) {
+        if (curr_node == null) {
+            d3.select('#neighbors')
+              .style('display', 'block');
+        }
+        curr_node = d;
         showData(d);
     });
 
@@ -319,7 +370,7 @@ function showData(node) {
         list.append('td')
             .html(link.interactions);
     })
-    i
+    
 
 }
 

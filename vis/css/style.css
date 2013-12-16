@@ -32,6 +32,12 @@ rect {
   stroke: #999;
 }
 
+#neighbors {
+  float: right;
+  margin: 20px 5px;
+  display: none;
+}
+
 #chart {
   height: 100%;
   font-family: 'Ubuntu', Arial;
@@ -61,7 +67,7 @@ rect {
 }
 
 .table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{
-  background-color: #30C26D;
+  background-color: transparent;
 }
 
 .table-striped>tbody>tr:nth-child(odd),.table-striped>tbody>tr:nth-child(odd){
