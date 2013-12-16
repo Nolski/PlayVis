@@ -6,7 +6,8 @@ var width = Math.floor(parseFloat(window.getComputedStyle(document.querySelector
     paused = false,
     menu = false,
     neighbors = false,
-    curr_node = null;
+    curr_node = null,
+    speed = 80;
 
 
 var force = d3.layout.force()
@@ -49,7 +50,7 @@ document.getElementById('stop').addEventListener('click', function (event) {
           .html('Resume')
           .attr('class', 'btn btn-success');
     } else {
-        window.id = window.setInterval(interval, 10);
+        window.id = window.setInterval(interval, speed);
         d3.select('#stop')
           .html('Pause')
           .attr('class', 'btn btn-danger');
@@ -108,7 +109,7 @@ d3.json('output.json', function (error, json) { // ajax for the json and start t
             .domain([0, json.length]);
     window.i = 0;
     window.json = json;
-    window.id = window.setInterval(interval, 100);
+    window.id = window.setInterval(interval, speed);
 });
 
 function interval () {
