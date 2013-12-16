@@ -352,6 +352,8 @@ function showData(node) {
         .html('Name: <span class="name">' + node.name + "</span>")
     info_panel.append('p')
         .html('Lines: ' + node.lines)
+    info_panel.append('p')
+        .html('Sentiment Score: '+node.sentiment);
     info_panel.append('table')
         .attr('class', 'table table-striped')
         .html(table_head)
