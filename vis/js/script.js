@@ -11,11 +11,7 @@ var force = d3.layout.force()
     .linkStrength(1)
     .linkDistance(110)
     .charge(function (d) {
-        if(d.status == 'active') {
-            return -600;
-        } else {
-            return -300;
-        }
+        return -400;
     })
     .on("tick", tick);
 
@@ -77,22 +73,27 @@ d3.json('output.json', function (error, json) {
                 var currLink = {
                         source: current_char, 
                         target: node_names[d.last_char], 
-                        style: 'inactive'
+                        state: 'inactive'
                     },
                     linkName = current_char.name  +'-'+ node_names[d.last_char].name;
 
                 if (linkNames.indexOf(linkName) == -1) {
                     linkNames.push(linkName)
                     links.push(currLink); // create a link
+                    var last_char = node_names[d.last_char];
 
                     if (current_char['links'] == undefined){
                         current_char['links'] = [];
                     }
 
+                    if (last_char['links'] == undefined){
+                        last_char['links'] = [];
+                    }
+
                     current_char['links'].push(currLink);
+                    last_char['links'].push(currLink);
                 }
 
-                
                 if (current_char['neighbors'] == undefined){
                     current_char['neighbors'] = [];
                 }
@@ -109,13 +110,13 @@ d3.json('output.json', function (error, json) {
                 if (node_names[d.last_char].sentiment > max) { // modify max sentiment
                     max = node_names[d.last_char].sentiment;
                 }
-                
+
                 if(node_names[d.last_char].sentiment < min) {// modify minsentiment
                     min = node_names[d.last_char].sentiment;
                 }
             }
         }   
-    
+
         i++;
     }, 1);
 });
@@ -176,6 +177,8 @@ function update() {
     link.enter().insert("line", ".node")
         .attr("class", "link");
 
+    link.exit().remove();
+
     node = node.data(nodes);
 
     texts = texts.data(force.nodes());
@@ -195,14 +198,7 @@ function update() {
             return("rgb(" + r+", "+g+",0)");
         })
         .call(force.drag);
-
-    node.exit()
-        .transition()
-        .attr("x",320)
-        .each("end",function() { 
-        d3.select(this).       // so far, as above
-            remove();            // we delete the object instead 
-        });
+    node.exit().remove();
 
     node.on('mouseover', function (d) {
         node.active = true;
@@ -219,13 +215,28 @@ function update() {
         });
     });
 
+    node.on('click', function (d) {
+        removeNode(d);
+    });
+
     texts.enter().append("text")
         .attr("class", "label")
         .attr("fill", "black")
         .style("pointer-events", "none")
         .text(function (d) {  return d.name + d.sentiment;  });
 
-
+    texts.exit().remove();
     force.start();
+}
+
+function removeNode(node) {
+    console.log(node);
+    // loop through links and destroy them.
+    for (var i = 0; i < node.links.length; i++) {
+        var link = node.links[i];
+        console.log();
+        links.splice(links.indexOf(link), 1);
+    }
+    nodes.splice(nodes.indexOf(node), 1);
 }
 
