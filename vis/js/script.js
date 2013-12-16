@@ -3,7 +3,10 @@ var width = Math.floor(parseFloat(window.getComputedStyle(document.querySelector
     nodes = [],
     links = [],
     linkNames = [],
-    paused = false;
+    paused = false,
+    menu = false;
+
+
 var force = d3.layout.force()
     .size([width, height])
     .nodes(nodes)
@@ -43,7 +46,7 @@ document.getElementById('stop').addEventListener('click', function (event) {
           .html('Resume')
           .attr('class', 'btn btn-success');
     } else {
-        window.id = window.setInterval(interval, 100);
+        window.id = window.setInterval(interval, 10);
         d3.select('#stop')
           .html('Pause')
           .attr('class', 'btn btn-danger');
@@ -52,6 +55,32 @@ document.getElementById('stop').addEventListener('click', function (event) {
     paused = !paused;
 });
 
+document.getElementById('up').addEventListener('click', function (event) {
+    if (!menu) {
+        var side = window.getComputedStyle(document.getElementsByClassName('side')[0]).height.replace('px', '');
+        if(side < 450) {
+            d3.select('.side')
+              .transition()
+              .style('margin-top', '-'+side+'px');
+        } else {
+            d3.select('.side')
+              .transition()
+              .style('margin-top', '-450px');
+        }
+        d3.select('#toggle')
+          .attr('class', 'glyphicon glyphicon-chevron-down')
+          .style('margin-left', '4px');
+    } else {
+        d3.select('.side')
+          .transition()
+          .style('margin-top', '0px');
+        d3.select('#toggle')
+          .attr('class', 'glyphicon glyphicon-chevron-up')
+          .style('margin-left', '7px');
+    }
+
+    menu = !menu;
+});
 update();
 
 d3.json('output.json', function (error, json) {
@@ -266,21 +295,31 @@ function update() {
 
 function showData(node) {
     console.log(node.links);
-    var info_panel = d3.select('#info').html('');
+    var info_panel = d3.select('#info').html(''),
+        table_head = '<thead><tr><th>Source</th><th>Target</th><th># of Interactions<th></tr></thead>';
     info_panel.append('p')
-        .html('Name: ' + node.name)
-      .append('p')
+        .html('Name: <span class="name">' + node.name + "</span>")
+    info_panel.append('p')
         .html('Lines: ' + node.lines)
-      .append('table')
-        .attr('class', 'table table-striped');
+    info_panel.append('table')
+        .attr('class', 'table table-striped')
+        .html(table_head)
+          .append('tbody')
+            .attr('id', 'links')
     
     node.links.forEach(function (link) {
         var text = '';
         text = link.source.name + '->' + link.target.name + ': ' + link.interactions + ' interactions';
-        info_panel.select('.link-list')
-          .append('tr')
-            .html(text);
+        list = info_panel.select('#links')
+          .append('tr');
+        list.append('td')
+            .html(link.source.name);
+        list.append('td')
+            .html(link.target.name);
+        list.append('td')
+            .html(link.interactions);
     })
+    i
 
 }
 

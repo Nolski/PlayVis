@@ -59,3 +59,52 @@ rect {
   margin: 0;
   padding: 0;
 }
+
+.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{
+  background-color: #30C26D;
+}
+
+.table-striped>tbody>tr:nth-child(odd),.table-striped>tbody>tr:nth-child(odd){
+  background-color: #30C26D;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+
+#up {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  width: 50px;
+  height: 55px;
+  background-color: #30C26D;
+  color: #FFF;
+  display: none;
+}
+
+#up > span {
+  font-size: 37px;
+  margin-left: 8px;
+  margin-top: 6px;
+}
+
+/* Small devices (tablets, 992px and up)
+   This is where scaffolding happens
+ */
+@media (max-width: 992px) {
+  body {
+    overflow: hidden;
+  }
+
+  .side {
+    max-height: 450px;
+    overflow-y: scroll;
+  }
+
+  #up {
+    display: block;
+  }
+} 
