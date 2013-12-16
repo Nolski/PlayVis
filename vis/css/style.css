@@ -1,8 +1,10 @@
+html {
+  height: 100%;
+}
 body {
-  font-family: 'Ubuntu', Arial;
-  font-weight: 400;
   margin: 0;
   padding: 0;
+  height:100%;
 }
 
 rect {
@@ -12,7 +14,7 @@ rect {
 
 #time {
   width: 100%;
-  background-color: slateblue;
+  background-color: #27ae60;
   height:25px;
 }
 
@@ -28,4 +30,32 @@ rect {
 
 .link {
   stroke: #999;
+}
+
+#chart {
+  height: 100%;
+  font-family: 'Ubuntu', Arial;
+  font-weight: 400;
+}
+
+#stop {
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+}
+
+#title {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.side {
+  background-color: #27ae60;
+  color: #FFF;
+  height: 100%;
+}
+
+.col-md-8, .col-md-4 {
+  margin: 0;
+  padding: 0;
 }
