@@ -43,6 +43,11 @@ var colors = d3.scale.category10();
 
 update();
 
+/**
+ * Event listener for the pause button. Will pause the play animation
+ * @param  {event} event 
+ * @return {none}       none
+ */
 document.getElementById('stop').addEventListener('click', function (event) {
     if (!paused) {
         window.clearInterval(window.id);
@@ -59,6 +64,12 @@ document.getElementById('stop').addEventListener('click', function (event) {
     paused = !paused;
 });
 
+/**
+ * Event listener for showing the neighbors. Will show only neighbors of the 
+ * currently selected node
+ * @param  {event} event 
+ * @return {none}       none
+ */
 document.getElementById('neighbors').addEventListener('click', function (event) {
     if (!neighbors) {
         showNeighbors(curr_node)
@@ -103,6 +114,12 @@ document.getElementById('up').addEventListener('click', function (event) {
     menu = !menu;
 });
 
+/**
+ * Loads the json file of events
+ * @param  {error} error if error exists it will give some info on what happened
+ * @param  {object} json  the loaded json
+ * @return {none}       none
+ */
 d3.json('output.json', function (error, json) { // ajax for the json and start the animation
     window.timeline = d3.scale.linear()
             .range([0, 100])
@@ -112,6 +129,10 @@ d3.json('output.json', function (error, json) { // ajax for the json and start t
     window.id = window.setInterval(interval, speed);
 });
 
+/**
+ * This is our main animtion loop. Fires once for every "event" in our json
+ * @return {none} none
+ */
 function interval () {
     update();
     if (i >= json.length) {
@@ -194,6 +215,11 @@ function interval () {
     i++;
 }
 
+/**
+ * Shows only neighbors of given node on graph
+ * @param  {node} node - A node in our graph
+ * @return {none}      none
+ */
 function showNeighbors(node) {
     old_nodes = nodes;
     old_links = links;
@@ -213,12 +239,23 @@ function showNeighbors(node) {
     update();
 }
 
+/**
+ * returns the graph back to its previous state
+ * @return {none} none
+ */
 function unshowNeighbors() {
     nodes = old_nodes;
     links = old_links;
     update();
 }
 
+/**
+ * Given a list of links and a target link it will give the index of that link
+ * if it exists. Otherwise it will return false
+ * @param  {link} target [The target link we are looking for]
+ * @param  {list<link>} links  [The list of links we are searching through]
+ * @return {int or false}        [if(int): the index of link -- false: link does not exist in links]
+ */
 function findLink (target, links) {
     var result = false,
         i = 0;
@@ -345,6 +382,11 @@ function update() {
     force.start();
 }
 
+/**
+ * Populates the side panel with information on node
+ * @param  {node} node [A node in our graph]
+ * @return {none}      none
+ */
 function showData(node) {
     console.log(node.links);
     var info_panel = d3.select('#info').html(''),
@@ -377,6 +419,11 @@ function showData(node) {
 
 }
 
+/**
+ * Removes given node and all connected links from graph
+ * @param  {node} node [node to remove]
+ * @return {none}      none
+ */
 function removeNode(node) {
     // loop through links and destroy them.
     for (var i = 0; i < node.links.length; i++) {
