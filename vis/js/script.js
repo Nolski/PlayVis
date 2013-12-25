@@ -49,6 +49,8 @@ update();
  * @return {none}       none
  */
 document.getElementById('stop').addEventListener('click', function (event) {
+    if (neighbors) return;
+
     if (!paused) {
         window.clearInterval(window.id);
         d3.select('#stop')
@@ -74,6 +76,7 @@ document.getElementById('neighbors').addEventListener('click', function (event) 
     if (!neighbors) {
         showNeighbors(curr_node)
         d3.select('#neighbors').html('Show All Nodes');
+        pause();
     } else {
         unshowNeighbors()
         d3.select('#neighbors').html('Show Only Neighbors');
@@ -431,5 +434,14 @@ function removeNode(node) {
         links.splice(links.indexOf(link), 1);
     }
     nodes.splice(nodes.indexOf(node), 1);
+}
+
+function pause () {
+    if (!paused) {
+        window.clearInterval(window.id);
+        d3.select('#stop')
+          .html('Resume')
+          .attr('class', 'btn btn-success');
+    }
 }
 
