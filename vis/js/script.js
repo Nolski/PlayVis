@@ -50,7 +50,7 @@ update();
  */
 document.getElementById('stop').addEventListener('click', function (event) {
     if (neighbors) return;
-    
+
     //TODO: Make sure transition is correct.
     if (!paused) {
         window.clearInterval(window.id);
@@ -402,7 +402,6 @@ function update() {
  * @return {none}      none
  */
 function showData(node) {
-    console.log(node.links);
     var info_panel = d3.select('#info').html(''),
         table_head = '<thead><tr><th>Source</th><th>Target</th><th># of Interactions<th></tr></thead>';
     info_panel.append('p')
