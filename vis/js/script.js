@@ -36,8 +36,9 @@ var node_names = {},
 
 var texts = svg.selectAll("text.label");
 
-var min = 0,
-    max = 0;
+var min_sent = 0,
+    max_sent = 0,
+    max_interactions = 1;
 
 var colors = d3.scale.category10();
 
@@ -85,9 +86,13 @@ document.getElementById('neighbors').addEventListener('click', function (event) 
     if (!neighbors) {
         showNeighbors(curr_node)
         d3.select('#neighbors').html('Show All Nodes');
+        force.gravity(0.25);
+        update();
         pause();
     } else {
         unshowNeighbors()
+        force.gravity(0.1);
+        update(0);
         d3.select('#neighbors').html('Show Only Neighbors');
     }
 
@@ -201,6 +206,9 @@ function interval () {
             } else {
                 var curr_index = findLink(currLink, current_char['links']);
                 current_char['links'][curr_index].interactions++;
+                if (current_char['links'][curr_index].interactions > max_interactions) {
+                    max_interactions = current_char['links'][curr_index].interactions;
+                }
             }
 
             if (current_char['neighbors'] == undefined){
@@ -209,19 +217,24 @@ function interval () {
 
             current_char['neighbors'].push(currLink);
 
+            
             // HANDLE SENTIMENT ///////////
-            if (node_names[d.last_char].sentiment != undefined) { //add sentiment (or create sentiment)
+
+            //add sentiment (or create sentiment)
+            if (node_names[d.last_char].sentiment != undefined) {
                 node_names[d.last_char].sentiment += d.sentiment;
             } else {
                  node_names[d.last_char].sentiment = d.sentiment;
             }
             
-            if (node_names[d.last_char].sentiment > max) { // modify max sentiment
-                max = node_names[d.last_char].sentiment;
+            // modify max_sent sentiment
+            if (node_names[d.last_char].sentiment > max_sent) {
+                max_sent = node_names[d.last_char].sentiment;
             }
 
-            if(node_names[d.last_char].sentiment < min) {// modify minsentiment
-                min = node_names[d.last_char].sentiment;
+            // modify min_sent sentiment
+            if(node_names[d.last_char].sentiment < min_sent) {
+                min_sent = node_names[d.last_char].sentiment;
             }
         }
     }   
@@ -274,7 +287,8 @@ function findLink (target, links) {
     var result = false,
         i = 0;
     links.forEach(function (link) {
-        if (link.source.name==target.source.name && link.target.name==target.target.name) {
+        if (link.source.name==target.source.name 
+            && link.target.name==target.target.name) {
             result = i;
         }
         i++;
@@ -284,10 +298,13 @@ function findLink (target, links) {
 
 /**
  * This runs on every increment of the animation in d3.
- * Totally magical
+ *
+ * NOTE: Use function (d) {} for grabbing properties stored in the node object.
+ * 
  * @return {None} none
  */
 function tick() {
+    //Create link between source and target and style
     link.attr("x1", function (d) { return d.source.x; })
       .attr("y1", function (d) { return d.source.y; })
       .attr("x2", function (d) { return d.target.x; })
@@ -295,7 +312,13 @@ function tick() {
       .transition()
       .attr('style', function (d) {
           if (d.state == 'active') {
-              return 'stroke: red; stroke-width:5px;';
+            var scale = d3.scale.linear()
+              .range([1, 10])
+              .domain([1, max_interactions]);
+
+            var width = scale(d.interactions);
+
+            return 'stroke: red; stroke-width:'+ width +'px;';
           } else {
             return 'stroke: black;'
           }
@@ -308,18 +331,21 @@ function tick() {
           }
       });
 
+    // Update node position and color based upon sentiment
     node.attr("cx", function (d) { return d.x; })
       .attr("cy", function (d) { return d.y; })
       .attr("r", function (d) { return d.radius })
       .attr("style", function (d) {
             var scale = d3.scale.linear()
                 .range([0, 255])
-                .domain([min, max]);
+                .domain([min_sent, max_sent]);
             var sent = scale(d.sentiment),
                 g = Math.floor(sent),
                 r = Math.floor(255 - sent);
             return("fill:rgb(" + r+", "+g+",0)");
-        });
+      });
+
+    // Move text over corrisponding node (if it exists)
     if (texts != []) {
         texts.attr("transform", function (d) {
             return "translate(" + d.x + "," + d.y + ")";
@@ -352,7 +378,7 @@ function update() {
         .style("fill", function(d) {
             var scale = d3.scale.linear()
                 .range([0, 255])
-                .domain([min, max]);
+                .domain([min_sent, max_sent]);
             var sent = scale(d.sentiment),
                 r = sent,
                 g = 255 - sent;
