@@ -1,3 +1,12 @@
+/*
+  Authors: Mike Nolan and Tyler Krupicka;
+  Colors: {
+    Paused: #EDFFF9;
+    Green: #27AE60;
+    Light Green: #30C26D;
+  };
+*/
+
 html {
   height: 100%;
 }
@@ -13,6 +22,11 @@ body {
 rect {
   fill: none;
   pointer-events: all;
+}
+
+.col-md-8, .col-md-4 {
+  margin: 0;
+  padding: 0;
 }
 
 #time {
@@ -54,7 +68,7 @@ rect {
 }
 
 #title {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Arial, helvetica;
   text-align: center;
 }
 
@@ -63,12 +77,9 @@ rect {
   color: #FFF;
   height: 100%;
   overflow-y: scroll;
+  padding-bottom: 1.5em;
 }
 
-.col-md-8, .col-md-4 {
-  margin: 0;
-  padding: 0;
-}
 
 .table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{
   background-color: transparent;
@@ -81,7 +92,7 @@ rect {
 .name {
   font-size: 22px;
   font-weight: bold;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Arial, helvetica;
 }
 
 #up {
@@ -101,6 +112,18 @@ rect {
   margin-top: 6px;
 }
 
+#line {
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  width: 33.33333333333333%;
+  font-family: 'Open Sans', Arial, helvetica;
+  font-size: 1.5em;
+  background-color: #27ae60;
+  padding-left: 10px;
+  color: #FFF;
+}
+
 /* Small devices (tablets, 992px and up)
    This is where scaffolding happens
  */
@@ -116,5 +139,13 @@ rect {
 
   #up {
     display: block;
+  }
+
+  #line {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: auto;
+    width: auto;
   }
 } 

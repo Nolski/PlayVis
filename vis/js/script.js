@@ -50,17 +50,25 @@ update();
  */
 document.getElementById('stop').addEventListener('click', function (event) {
     if (neighbors) return;
-
+    //TODO: Make sure transition is correct.
     if (!paused) {
         window.clearInterval(window.id);
         d3.select('#stop')
           .html('Resume')
           .attr('class', 'btn btn-success');
+        
+        d3.select('#chart')
+          .transition(2000)
+          .style('background-color', 'rgb(237, 255, 248)');
     } else {
         window.id = window.setInterval(interval, speed);
         d3.select('#stop')
           .html('Pause')
           .attr('class', 'btn btn-danger');
+
+        d3.select('#chart')
+          .transition(2000)
+          .style('background-color', 'rgb(255, 255, 255)');
     }
 
     paused = !paused;
@@ -141,6 +149,8 @@ function interval () {
     if (i >= json.length) {
         return;
     }
+
+    d3.select('#line').html('Line #: ' + i);
     
     var time_width = timeline(i);
     d3.select('#time')
