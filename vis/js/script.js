@@ -50,6 +50,7 @@ update();
  */
 document.getElementById('stop').addEventListener('click', function (event) {
     if (neighbors) return;
+    
     //TODO: Make sure transition is correct.
     if (!paused) {
         window.clearInterval(window.id);
