@@ -86,7 +86,7 @@ document.getElementById('neighbors').addEventListener('click', function (event) 
     if (!neighbors) {
         showNeighbors(curr_node)
         d3.select('#neighbors').html('Show All Nodes');
-        force.gravity(0.25);
+        force.gravity(0.3);
         update();
         pause();
     } else {
