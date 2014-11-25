@@ -22,4 +22,4 @@ Hit the webserver and load `index.html` to view the visualization. Simply replac
 Demo
 ----
 
-To view a visualization live visit: http://michael-nolan.com/playvis
+To view a visualization live visit: https://nolski.github.io/PlayVis/vis/
