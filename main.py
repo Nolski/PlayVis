@@ -79,7 +79,7 @@ class PlayVis:
                 if character_line == True:
                     self.character_lines[-1]['end'] = ii
                 character_line = False
-            # if the length of line line is not less than 3 and 
+            # if the length of line line is not less than 3 and
             # we are in a character line
             if not len(line) < 3 and character_line:
                 save += line # save the line
@@ -160,7 +160,7 @@ class PlayVis:
                     total += Sent[word]
                 if word in Sent2:
                     total += int(Sent2[word])
-            
+
             #if total == 0: print lst, total
             line_group['sentiment'] = total
     def to_json(self):
